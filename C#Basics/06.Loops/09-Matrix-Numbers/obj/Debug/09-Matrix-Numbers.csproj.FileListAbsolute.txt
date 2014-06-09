@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\09-Matrix-Numbers\bin\Debug\09-Matrix-Numbers.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\09-Matrix-Numbers\bin\Debug\09-Matrix-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\09-Matrix-Numbers\bin\Debug\09-Matrix-Numbers.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\09-Matrix-Numbers\obj\Debug\09-Matrix-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\09-Matrix-Numbers\obj\Debug\09-Matrix-Numbers.pdb

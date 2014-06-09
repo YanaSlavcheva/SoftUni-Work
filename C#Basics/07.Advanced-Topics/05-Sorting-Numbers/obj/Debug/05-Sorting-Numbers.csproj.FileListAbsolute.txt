@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\05-Sorting-Numbers\bin\Debug\05-Sorting-Numbers.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\05-Sorting-Numbers\bin\Debug\05-Sorting-Numbers.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\05-Sorting-Numbers\bin\Debug\05-Sorting-Numbers.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\05-Sorting-Numbers\obj\Debug\05-Sorting-Numbers.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\05-Sorting-Numbers\obj\Debug\05-Sorting-Numbers.pdb

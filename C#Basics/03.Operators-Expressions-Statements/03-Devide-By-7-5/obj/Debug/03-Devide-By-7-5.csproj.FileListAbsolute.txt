@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\bin\Debug\03-Devide-By-7-5.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\bin\Debug\03-Devide-By-7-5.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\bin\Debug\03-Devide-By-7-5.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\obj\Debug\03-Devide-By-7-5.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\obj\Debug\03-Devide-By-7-5.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\03-Devide-By-7-5\obj\Debug\03-Devide-By-7-5.csprojResolveAssemblyReference.cache

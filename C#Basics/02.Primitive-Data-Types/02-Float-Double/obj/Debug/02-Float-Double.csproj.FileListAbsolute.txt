@@ -1,0 +1,8 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\bin\Debug\02-Float-Double.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\bin\Debug\02-Float-Double.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\bin\Debug\02-Float-Double.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\obj\Debug\02-Float-Double.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\obj\Debug\02-Float-Double.pdb
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\bin\Debug\02-Float-Double.exe.config
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\obj\Debug\02-Float-Double.exe
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\02-Float-Double\obj\Debug\02-Float-Double.pdb

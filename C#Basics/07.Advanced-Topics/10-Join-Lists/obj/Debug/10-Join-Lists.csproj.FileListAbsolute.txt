@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\10-Join-Lists\bin\Debug\10-Join-Lists.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\10-Join-Lists\bin\Debug\10-Join-Lists.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\10-Join-Lists\bin\Debug\10-Join-Lists.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\10-Join-Lists\obj\Debug\10-Join-Lists.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\10-Join-Lists\obj\Debug\10-Join-Lists.pdb

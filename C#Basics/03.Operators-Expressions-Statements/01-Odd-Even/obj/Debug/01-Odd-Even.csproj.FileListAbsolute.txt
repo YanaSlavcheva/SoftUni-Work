@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\bin\Debug\01-Odd-Even.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\bin\Debug\01-Odd-Even.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\bin\Debug\01-Odd-Even.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\obj\Debug\01-Odd-Even.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\obj\Debug\01-Odd-Even.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\01-Odd-Even\obj\Debug\01-Odd-Even.pdb

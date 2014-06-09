@@ -1,0 +1,2 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\11-Bank-Account\bin\Debug\11-Bank-Account.exe.config
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\11-Bank-Account\bin\Debug\11-Bank-Account.exe.config

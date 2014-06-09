@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\10-Fibonacci-Numbers\bin\Debug\10-Fibonacci-Numbers.exe.config
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\10-Fibonacci-Numbers\bin\Debug\10-Fibonacci-Numbers.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\10-Fibonacci-Numbers\bin\Debug\10-Fibonacci-Numbers.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\10-Fibonacci-Numbers\obj\Debug\10-Fibonacci-Numbers.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\10-Fibonacci-Numbers\obj\Debug\10-Fibonacci-Numbers.pdb

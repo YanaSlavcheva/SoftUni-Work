@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\bin\Debug\12-Null-Values.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\bin\Debug\12-Null-Values.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\bin\Debug\12-Null-Values.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\obj\Debug\12-Null-Values.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\obj\Debug\12-Null-Values.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\12-Null-Values\obj\Debug\12-Null-Values.pdb

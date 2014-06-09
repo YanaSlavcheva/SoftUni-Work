@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\bin\Debug\02-Prime-Checker.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\bin\Debug\02-Prime-Checker.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\bin\Debug\02-Prime-Checker.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\obj\Debug\02-Prime-Checker.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\obj\Debug\02-Prime-Checker.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\02-Prime-Checker\obj\Debug\02-Prime-Checker.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\08-Catalan-Numbers\bin\Debug\08-Catalan-Numbers.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\08-Catalan-Numbers\bin\Debug\08-Catalan-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\08-Catalan-Numbers\bin\Debug\08-Catalan-Numbers.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\08-Catalan-Numbers\obj\Debug\08-Catalan-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\08-Catalan-Numbers\obj\Debug\08-Catalan-Numbers.pdb

@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\bin\Debug\06-Longest-Area-In-Array.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\obj\Debug\06-Longest-Area-In-Array.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\bin\Debug\06-Longest-Area-In-Array.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\bin\Debug\06-Longest-Area-In-Array.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\obj\Debug\06-Longest-Area-In-Array.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\06-Longest-Area-In-Array\obj\Debug\06-Longest-Area-In-Array.pdb

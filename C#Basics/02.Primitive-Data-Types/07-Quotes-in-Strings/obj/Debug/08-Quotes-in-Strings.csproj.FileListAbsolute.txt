@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\bin\Debug\08-Quotes-in-Strings.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\bin\Debug\08-Quotes-in-Strings.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\bin\Debug\08-Quotes-in-Strings.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\obj\Debug\08-Quotes-in-Strings.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\obj\Debug\08-Quotes-in-Strings.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Quotes-in-Strings\obj\Debug\08-Quotes-in-Strings.pdb

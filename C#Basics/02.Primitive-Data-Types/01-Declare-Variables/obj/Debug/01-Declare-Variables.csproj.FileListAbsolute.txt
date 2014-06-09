@@ -1,0 +1,9 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\bin\Debug\01-Declare-Variables.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\bin\Debug\01-Declare-Variables.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\bin\Debug\01-Declare-Variables.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\obj\Debug\01-Declare-Variables.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\obj\Debug\01-Declare-Variables.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\obj\Debug\01-Declare-Variables.pdb
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\bin\Debug\01-Declare-Variables.exe.config
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\obj\Debug\01-Declare-Variables.exe
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\01-Declare-Variables\obj\Debug\01-Declare-Variables.pdb

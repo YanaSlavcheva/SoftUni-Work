@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\bin\Debug\12-Extract-Bit-Integer.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\bin\Debug\12-Extract-Bit-Integer.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\bin\Debug\12-Extract-Bit-Integer.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\obj\Debug\12-Extract-Bit-Integer.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\obj\Debug\12-Extract-Bit-Integer.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\12-Extract-Bit-Integer\obj\Debug\12-Extract-Bit-Integer.pdb

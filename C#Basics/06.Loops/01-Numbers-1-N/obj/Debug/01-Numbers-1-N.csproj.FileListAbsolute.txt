@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\01-Numbers-1-N\bin\Debug\01-Numbers-1-N.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\01-Numbers-1-N\bin\Debug\01-Numbers-1-N.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\01-Numbers-1-N\bin\Debug\01-Numbers-1-N.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\01-Numbers-1-N\obj\Debug\01-Numbers-1-N.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\01-Numbers-1-N\obj\Debug\01-Numbers-1-N.pdb

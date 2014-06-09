@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\bin\Debug\14-Modify-Bit.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\bin\Debug\14-Modify-Bit.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\bin\Debug\14-Modify-Bit.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\obj\Debug\14-Modify-Bit.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\obj\Debug\14-Modify-Bit.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\14-Modify-Bit\obj\Debug\14-Modify-Bit.pdb

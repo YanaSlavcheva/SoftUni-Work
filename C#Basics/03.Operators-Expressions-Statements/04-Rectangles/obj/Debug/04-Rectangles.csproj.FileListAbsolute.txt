@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\bin\Debug\04-Rectangles.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\bin\Debug\04-Rectangles.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\bin\Debug\04-Rectangles.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\obj\Debug\04-Rectangles.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\obj\Debug\04-Rectangles.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\04-Rectangles\obj\Debug\04-Rectangles.pdb

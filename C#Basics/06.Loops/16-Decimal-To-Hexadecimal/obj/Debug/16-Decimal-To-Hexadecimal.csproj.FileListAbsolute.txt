@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\bin\Debug\16-Decimal-To-Hexadecimal.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\bin\Debug\16-Decimal-To-Hexadecimal.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\bin\Debug\16-Decimal-To-Hexadecimal.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\obj\Debug\16-Decimal-To-Hexadecimal.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\obj\Debug\16-Decimal-To-Hexadecimal.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\16-Decimal-To-Hexadecimal\obj\Debug\16-Decimal-To-Hexadecimal.pdb

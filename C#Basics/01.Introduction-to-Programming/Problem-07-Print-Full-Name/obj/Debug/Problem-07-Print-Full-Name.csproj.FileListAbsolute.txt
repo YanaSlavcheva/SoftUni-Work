@@ -1,0 +1,11 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\bin\Debug\Problem-7-Print-Full-Name.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\obj\Debug\Problem-7-Print-Full-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\obj\Debug\Problem-7-Print-Full-Name.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\bin\Debug\Problem-7-Print-Full-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\bin\Debug\Problem-7-Print-Full-Name.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-7-Print-Full-Name\bin\Debug\Problem-07-Print-Full-Name.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-07-Print-Full-Name\bin\Debug\Problem-07-Print-Full-Name.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-07-Print-Full-Name\bin\Debug\Problem-07-Print-Full-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-07-Print-Full-Name\bin\Debug\Problem-07-Print-Full-Name.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-07-Print-Full-Name\obj\Debug\Problem-07-Print-Full-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-07-Print-Full-Name\obj\Debug\Problem-07-Print-Full-Name.pdb

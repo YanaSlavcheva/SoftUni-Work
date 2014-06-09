@@ -1,0 +1,9 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\bin\Debug\09-Isosceles-Triangle.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\obj\Debug\09-Isosceles-Triangle.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\obj\Debug\09-Isosceles-Triangle.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\bin\Debug\09-Isosceles-Triangle.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\bin\Debug\09-Isosceles-Triangle.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\obj\Debug\08-Isosceles-Triangle.csprojResolveAssemblyReference.cache
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\bin\Debug\09-Isosceles-Triangle.exe.config
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\obj\Debug\09-Isosceles-Triangle.exe
+W:\_SoftUni\2014-04-C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\08-Isosceles-Triangle\obj\Debug\09-Isosceles-Triangle.pdb

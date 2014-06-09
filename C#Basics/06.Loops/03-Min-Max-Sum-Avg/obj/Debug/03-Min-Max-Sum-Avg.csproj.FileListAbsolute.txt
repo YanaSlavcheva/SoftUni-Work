@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\bin\Debug\03-Min-Max-Sum-Avg.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\bin\Debug\03-Min-Max-Sum-Avg.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\bin\Debug\03-Min-Max-Sum-Avg.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\obj\Debug\03-Min-Max-Sum-Avg.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\obj\Debug\03-Min-Max-Sum-Avg.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\03-Min-Max-Sum-Avg\obj\Debug\03-Min-Max-Sum-Avg.pdb

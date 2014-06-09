@@ -1,0 +1,3 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Hello-World\bin\Debug\Hello-World.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Hello-World\obj\Debug\Hello-World.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Hello-World\obj\Debug\Hello-World.pdb

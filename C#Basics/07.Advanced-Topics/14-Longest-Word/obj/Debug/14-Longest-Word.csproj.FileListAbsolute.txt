@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\14-Longest-Word\bin\Debug\14-Longest-Word.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\14-Longest-Word\bin\Debug\14-Longest-Word.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\14-Longest-Word\bin\Debug\14-Longest-Word.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\14-Longest-Word\obj\Debug\14-Longest-Word.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\14-Longest-Word\obj\Debug\14-Longest-Word.pdb

@@ -1,0 +1,8 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\bin\Debug\Problem-14-Date-Time.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\bin\Debug\Problem-14-Date-Time.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\bin\Debug\Problem-14-Date-Time.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\obj\Debug\Problem-14-Date-Time.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\obj\Debug\Problem-14-Date-Time.pdb
+W:\_SoftUni\2014-04-C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\bin\Debug\Problem-14-Date-Time.exe.config
+W:\_SoftUni\2014-04-C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\obj\Debug\Problem-14-Date-Time.exe
+W:\_SoftUni\2014-04-C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-14-Date-Time\obj\Debug\Problem-14-Date-Time.pdb

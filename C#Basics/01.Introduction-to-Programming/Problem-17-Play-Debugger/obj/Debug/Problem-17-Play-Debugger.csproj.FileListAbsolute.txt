@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-17-Play-Debugger\bin\Debug\Problem-17-Play-Debugger.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-17-Play-Debugger\bin\Debug\Problem-17-Play-Debugger.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-17-Play-Debugger\bin\Debug\Problem-17-Play-Debugger.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-17-Play-Debugger\obj\Debug\Problem-17-Play-Debugger.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-17-Play-Debugger\obj\Debug\Problem-17-Play-Debugger.pdb

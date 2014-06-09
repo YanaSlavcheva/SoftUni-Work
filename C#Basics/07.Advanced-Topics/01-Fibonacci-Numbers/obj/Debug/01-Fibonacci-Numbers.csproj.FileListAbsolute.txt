@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\bin\Debug\01-Fibonacci-Numbers.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\bin\Debug\01-Fibonacci-Numbers.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\bin\Debug\01-Fibonacci-Numbers.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\obj\Debug\01-Fibonacci-Numbers.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\obj\Debug\01-Fibonacci-Numbers.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\01-Fibonacci-Numbers\obj\Debug\01-Fibonacci-Numbers.pdb

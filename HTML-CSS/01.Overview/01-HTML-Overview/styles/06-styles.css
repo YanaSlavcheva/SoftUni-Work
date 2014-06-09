@@ -1,0 +1,6 @@
+﻿/** body */
+body {background-color:#add8e6;} /* the exact color as in the example from the .ppt file is accomplished by extracting it through GIMP */
+
+/** ul*/
+    ul.decimal {list-style-type:decimal;}
+    ul.none {list-style-type:none;}

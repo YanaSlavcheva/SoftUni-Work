@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\bin\Debug\06-Sum-5-Numbers.exe.config
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\obj\Debug\06-Sum-5-Numbers.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\obj\Debug\06-Sum-5-Numbers.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\bin\Debug\06-Sum-5-Numbers.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\bin\Debug\06-Sum-5-Numbers.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\07-Sum-5-Numbers\obj\Debug\07-Sum-5-Numbers.csprojResolveAssemblyReference.cache

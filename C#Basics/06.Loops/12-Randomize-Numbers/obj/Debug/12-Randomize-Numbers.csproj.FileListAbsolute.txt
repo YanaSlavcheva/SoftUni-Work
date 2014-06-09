@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\bin\Debug\12-Randomize-Numbers.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\bin\Debug\12-Randomize-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\bin\Debug\12-Randomize-Numbers.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\obj\Debug\12-Randomize-Numbers.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\obj\Debug\12-Randomize-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\12-Randomize-Numbers\obj\Debug\12-Randomize-Numbers.pdb

@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\10-Point-Circle-Rect\bin\Debug\10-Point-Circle-Rect.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\10-Point-Circle-Rect\bin\Debug\10-Point-Circle-Rect.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\10-Point-Circle-Rect\bin\Debug\10-Point-Circle-Rect.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\10-Point-Circle-Rect\obj\Debug\10-Point-Circle-Rect.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\10-Point-Circle-Rect\obj\Debug\10-Point-Circle-Rect.pdb

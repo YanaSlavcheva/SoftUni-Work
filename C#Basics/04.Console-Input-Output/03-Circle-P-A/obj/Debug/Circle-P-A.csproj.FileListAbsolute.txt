@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\Circle-P-A\bin\Debug\Circle-P-A.exe.config
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\Circle-P-A\bin\Debug\Circle-P-A.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\Circle-P-A\bin\Debug\Circle-P-A.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\Circle-P-A\obj\Debug\Circle-P-A.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\Circle-P-A\obj\Debug\Circle-P-A.pdb

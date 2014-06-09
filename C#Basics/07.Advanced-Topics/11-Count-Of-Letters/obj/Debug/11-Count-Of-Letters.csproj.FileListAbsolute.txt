@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\bin\Debug\11-Count-Of-Letters.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\obj\Debug\11-Count-Of-Letters.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\bin\Debug\11-Count-Of-Letters.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\bin\Debug\11-Count-Of-Letters.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\obj\Debug\11-Count-Of-Letters.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\11-Count-Of-Letters\obj\Debug\11-Count-Of-Letters.pdb

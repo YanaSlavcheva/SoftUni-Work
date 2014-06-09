@@ -1,0 +1,3 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\18-Trailing-Zeroes\bin\Debug\11-Trailing-Zeroes.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\18-Trailing-Zeroes\obj\Debug\11-Trailing-Zeroes.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\18-Trailing-Zeroes\obj\Debug\11-Trailing-Zeroes.pdb

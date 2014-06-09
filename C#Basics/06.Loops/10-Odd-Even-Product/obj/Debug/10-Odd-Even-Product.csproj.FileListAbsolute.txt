@@ -1,0 +1,9 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\bin\Debug\10-Odd-Even-Product.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\bin\Debug\10-Odd-Even-Product.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\bin\Debug\10-Odd-Even-Product.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\obj\Debug\10-Odd-Even-Product.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\obj\Debug\10-Odd-Even-Product.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product\obj\Debug\10-Odd-Even-Product.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product-CatchException\bin\Debug\10-Odd-Even-Product.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product-CatchException\obj\Debug\10-Odd-Even-Product.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\10-Odd-Even-Product-CatchException\obj\Debug\10-Odd-Even-Product.pdb

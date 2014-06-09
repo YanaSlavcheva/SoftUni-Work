@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\11-Dividable-Numbers-In-Interval\bin\Debug\11-Dividable-Numbers-In-Interval.exe.config
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\11-Dividable-Numbers-In-Interval\bin\Debug\11-Dividable-Numbers-In-Interval.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\11-Dividable-Numbers-In-Interval\bin\Debug\11-Dividable-Numbers-In-Interval.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\11-Dividable-Numbers-In-Interval\obj\Debug\11-Dividable-Numbers-In-Interval.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\11-Dividable-Numbers-In-Interval\obj\Debug\11-Dividable-Numbers-In-Interval.pdb

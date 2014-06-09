@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\16-Bit-Exchange-Adv\bin\Debug\16-Bit-Exchange-Adv.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\16-Bit-Exchange-Adv\bin\Debug\16-Bit-Exchange-Adv.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\16-Bit-Exchange-Adv\bin\Debug\16-Bit-Exchange-Adv.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\16-Bit-Exchange-Adv\obj\Debug\16-Bit-Exchange-Adv.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\16-Bit-Exchange-Adv\obj\Debug\16-Bit-Exchange-Adv.pdb

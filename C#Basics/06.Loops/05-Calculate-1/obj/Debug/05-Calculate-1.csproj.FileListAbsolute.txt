@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\bin\Debug\05-Calculate-1.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\bin\Debug\05-Calculate-1.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\bin\Debug\05-Calculate-1.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\obj\Debug\05-Calculate-1.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\obj\Debug\05-Calculate-1.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\05-Calculate-1\obj\Debug\05-Calculate-1.pdb

@@ -1,0 +1,80 @@
+﻿/*setting margins and paddings to 0*/
+div, p, ul, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*we set the font for the entire page*/
+body {
+    color: white;
+    font-family: Calibri;
+}
+
+/** div container - contains the slide itself*/
+#container {
+    background-image:url('../images/05-background.jpg');
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    width: 1000px;
+    height: 563px;
+    padding-left: 20px;
+    padding-top:20px;
+}
+
+/*the heading of the slide*/
+    #container header{
+        font-size: x-large;
+        color: #ffd069;
+        margin-left: 20px;
+    }
+
+    #container ul {
+        color:white;
+        font-size: xx-large;
+        list-style:none;
+        margin-left: 60px;
+    }
+
+    /*we set the square bullets*/
+        #container ul li:before {
+            content:"■ ";
+            color: #f2b254;
+            font-size:large;
+            vertical-align:middle;
+        }
+
+        /*here we manage the three rectangles with info*/
+        #container ul li div {
+            background-color: rgba(128,128,128,0.4); /*we add transparency "a" stands for "alpha"*/
+            border:solid;
+            border-color: white;
+            border-width: 1px;
+            width: 835px;
+            margin-left: 20px;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+
+        #container ul li #innerSquare01, #innerSquare03 {
+            height: 100px; 
+        }
+
+        #container ul li #innerSquare02 {
+            height: 70px; 
+        }
+        
+            #container ul li div p {
+                font-size:x-large;
+                margin-left: 20px;
+                margin-top: 5px;
+                color: #fffed7;
+            }
+
+        #container ul li span {
+            color: #ffd069;
+            font-size: xx-large;
+            font-weight:bolder;
+        }
+
+
+

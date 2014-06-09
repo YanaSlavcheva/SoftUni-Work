@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Print-Your-Name\bin\Debug\Print-Your-Name.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Print-Your-Name\bin\Debug\Print-Your-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Print-Your-Name\bin\Debug\Print-Your-Name.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Print-Your-Name\obj\Debug\Print-Your-Name.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Print-Your-Name\obj\Debug\Print-Your-Name.pdb

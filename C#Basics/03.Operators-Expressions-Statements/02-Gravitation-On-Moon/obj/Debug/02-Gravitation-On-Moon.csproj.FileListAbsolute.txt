@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\02-Gravitation-On-Moon\bin\Debug\02-Gravitation-On-Moon.exe.config
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\02-Gravitation-On-Moon\bin\Debug\02-Gravitation-On-Moon.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\02-Gravitation-On-Moon\bin\Debug\02-Gravitation-On-Moon.pdb
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\02-Gravitation-On-Moon\obj\Debug\02-Gravitation-On-Moon.exe
+W:\_SoftUni\C#Basics\03. Operators-Expressions-and-Statements\3. Operators-Expressions-and-Statements-Homework\Operators-Expressions\02-Gravitation-On-Moon\obj\Debug\02-Gravitation-On-Moon.pdb

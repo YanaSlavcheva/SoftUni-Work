@@ -1,0 +1,38 @@
+﻿1. Java
+powerhouse in the enterprise
+grows in areas such as  mobile and big data, where Java-based Hadoop is hot
+used for a variety of things, including enterprise apps and infrastructure,
+as well as Web and mobile development
+
+2. JavaScript
+JavaScript is in high demand
+JavaScript-related skills such as jQuery and Node.js also came are quite popularity
+primarily used in the form of client-side JavaScript, implemented as part of 
+a Web browser to provide enhanced user interfaces and dynamic Websites
+used in applications outside Web pages (server-side presence).
+
+3. C/C++
+C is used as a systems programming language as well as for applications—such as embedded systems applications.
+C++, developed as an enhancement of C, was initially known as "C with Classes". It is used for
+developing systems software, application software, device drivers, embedded software, high-performance server and client applications, and entertainment software such as video games.
+
+4. C#
+Microsoft's C# was developed as a Java alternative and borrows from its predecessors: Java, C, C++ and Delphi.
+It is a multi-paradigm programming language encompassing strong typing, imperative, declarative,
+functional, procedural, generic, object-oriented (class-based),
+and component-oriented programming disciplines. 
+
+5. PHP
+PHP is a widely used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. It was originally designed to produce dynamic Web pages.
+
+6. Python
+Python is a dynamic language that is used in a wide variety of application domains. Often compared to Tcl, Perl, Ruby, Scheme and Java, it enables developers to write code quickly.
+
+7. Ruby
+Ruby is a dynamic, open-source language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+
+8. Objective-C
+Objective-C is a reflective, object-oriented language that adds Smalltalk-style messaging to the C programming language.
+It is used primarily on Apple's Mac OS X and iOS, two environments based on the OpenStep standard, though not compliant with it.
+Objective-C is the primary language used for Apple's Cocoa API, and was originally the main language on NeXT's NeXTSTEP OS.
+With the enormous popularity of the Apple platform, Objective-C is a good language to know.

@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-8-Square-Root\bin\Debug\Problem-8-Square-Root.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-8-Square-Root\bin\Debug\Problem-8-Square-Root.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-8-Square-Root\bin\Debug\Problem-8-Square-Root.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-8-Square-Root\obj\Debug\Problem-8-Square-Root.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-8-Square-Root\obj\Debug\Problem-8-Square-Root.pdb

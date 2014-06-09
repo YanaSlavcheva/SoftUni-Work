@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\03-Primes-In-Range\bin\Debug\03-Primes-In-Range.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\03-Primes-In-Range\bin\Debug\03-Primes-In-Range.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\03-Primes-In-Range\bin\Debug\03-Primes-In-Range.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\03-Primes-In-Range\obj\Debug\03-Primes-In-Range.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\03-Primes-In-Range\obj\Debug\03-Primes-In-Range.pdb

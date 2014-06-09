@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\11-Random-Numbers\bin\Debug\11-Random-Numbers.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\11-Random-Numbers\bin\Debug\11-Random-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\11-Random-Numbers\bin\Debug\11-Random-Numbers.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\11-Random-Numbers\obj\Debug\11-Random-Numbers.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\11-Random-Numbers\obj\Debug\11-Random-Numbers.pdb

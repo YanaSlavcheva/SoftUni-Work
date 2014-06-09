@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\bin\Debug\06-Factorial-N-K.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\bin\Debug\06-Factorial-N-K.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\bin\Debug\06-Factorial-N-K.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\obj\Debug\06-Factorial-N-K.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\obj\Debug\06-Factorial-N-K.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\06-Factorial-N-K\obj\Debug\06-Factorial-N-K.pdb

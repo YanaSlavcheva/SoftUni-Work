@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\bin\Debug\08-Numbers-1-To-N.exe.config
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\bin\Debug\08-Numbers-1-To-N.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\bin\Debug\08-Numbers-1-To-N.pdb
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\obj\Debug\08-Numbers-1-To-N.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\obj\Debug\08-Numbers-1-To-N.exe
+W:\_SoftUni\C#Basics\04. Console-Input-Output\4. Console-Input-Output-Homework\Console-Input-Output\08-Numbers-1-To-N\obj\Debug\08-Numbers-1-To-N.pdb

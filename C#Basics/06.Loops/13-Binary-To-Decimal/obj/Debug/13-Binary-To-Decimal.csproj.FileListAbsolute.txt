@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\bin\Debug\13-Binary-To-Decimal.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\bin\Debug\13-Binary-To-Decimal.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\bin\Debug\13-Binary-To-Decimal.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\obj\Debug\13-Binary-To-Decimal.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\obj\Debug\13-Binary-To-Decimal.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\13-Binary-To-Decimal\obj\Debug\13-Binary-To-Decimal.pdb

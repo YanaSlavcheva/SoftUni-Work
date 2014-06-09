@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\12-Count-Of-Names\bin\Debug\12-Count-Of-Names.exe.config
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\12-Count-Of-Names\bin\Debug\12-Count-Of-Names.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\12-Count-Of-Names\bin\Debug\12-Count-Of-Names.pdb
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\12-Count-Of-Names\obj\Debug\12-Count-Of-Names.exe
+W:\_SoftUni\C#Basics\07. CSharp-Advanced-Topics\7. CSharp-Advanced-Topics-Homework\Advanced-Topics\12-Count-Of-Names\obj\Debug\12-Count-Of-Names.pdb

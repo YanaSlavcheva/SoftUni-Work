@@ -1,0 +1,30 @@
+1. Microsoft Visual Studio 2012 Pro
+definitive IDE for Windows application development
+some of the supported languages - C++, C# and VB.NET
+you can develop for the Windows x86, Windows RT, and Windows Phone,  Microsoft Surface
+paid software
+
+2. Oracle Netbeans 7
+excellent Java support
+some of the supported languages -  C/C++, Ruby, HTML5, PHP
+extensible via its plugin-centric design – you can  add additional language syntax support and libraries
+free software
+
+3. Eclipse
+similar to Netbeans -  use of Java and plugin architecture
+there are many  variants of Eclipse to serve the various needs and objectives in software development workflows
+free software
+
+4. Code::Blocks
+built on the wxWidgets framework
+exceptionally lightweight in size
+quite functional and feature-rich
+multi-core compiling
+You can load up a number of under-the-hood compiler engines, ranging from GCC and LLVM, to Digital Mars and Open Watcom
+free software
+
+5. Aptana Studio 3
+web and scripting languages
+some of the supported languages - Ruby on Rails, Python, Adobe AIR
+Aptana Studio  is available as a plugin for Eclipse
+free software

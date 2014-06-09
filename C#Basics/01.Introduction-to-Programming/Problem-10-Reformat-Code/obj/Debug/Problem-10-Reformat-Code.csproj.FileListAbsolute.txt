@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\bin\Debug\Problem-10-Reformat-Code.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\bin\Debug\Problem-10-Reformat-Code.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\bin\Debug\Problem-10-Reformat-Code.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\obj\Debug\Problem-10-Reformat-Code.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\obj\Debug\Problem-10-Reformat-Code.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-10-Reformat-Code\obj\Debug\Problem-10-Reformat-Code.pdb

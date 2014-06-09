@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-15-Age-Plus-10\bin\Debug\Problem-15-Age-Plus-10.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-15-Age-Plus-10\bin\Debug\Problem-15-Age-Plus-10.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-15-Age-Plus-10\bin\Debug\Problem-15-Age-Plus-10.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-15-Age-Plus-10\obj\Debug\Problem-15-Age-Plus-10.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-15-Age-Plus-10\obj\Debug\Problem-15-Age-Plus-10.pdb

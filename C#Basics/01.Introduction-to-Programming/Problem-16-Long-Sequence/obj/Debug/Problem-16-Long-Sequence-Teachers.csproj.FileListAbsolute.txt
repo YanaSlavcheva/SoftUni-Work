@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\bin\Debug\Problem-16-Long-Sequence.exe.config
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\obj\Debug\Problem-16-Long-Sequence.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\obj\Debug\Problem-16-Long-Sequence.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\bin\Debug\Problem-16-Long-Sequence.exe
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\bin\Debug\Problem-16-Long-Sequence.pdb
+W:\_SoftUni\C#Basics\01. Introduction-to-Programming\1. Introduction-to-Programming-Homework\Intro-Programming-Homework\Problem-16-Long-Sequence\obj\Debug\Problem-16-Long-Sequence-Teachers.csprojResolveAssemblyReference.cache

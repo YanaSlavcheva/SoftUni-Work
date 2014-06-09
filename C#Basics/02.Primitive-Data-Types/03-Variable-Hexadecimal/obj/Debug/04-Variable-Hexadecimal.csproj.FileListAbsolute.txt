@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\04-Variable-Hexadecimal\bin\Debug\04-Variable-Hexadecimal.exe.config
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\04-Variable-Hexadecimal\bin\Debug\04-Variable-Hexadecimal.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\04-Variable-Hexadecimal\bin\Debug\04-Variable-Hexadecimal.pdb
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\04-Variable-Hexadecimal\obj\Debug\04-Variable-Hexadecimal.exe
+W:\_SoftUni\C#Basics\02. Primitive-Data-Types-and-Variables\2. Primitive-Data-Types-and-Variables-Homework\Primitive-Data-Types\04-Variable-Hexadecimal\obj\Debug\04-Variable-Hexadecimal.pdb

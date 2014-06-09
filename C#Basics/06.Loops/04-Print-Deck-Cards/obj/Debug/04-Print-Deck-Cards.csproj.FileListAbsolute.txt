@@ -1,0 +1,6 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\bin\Debug\04-Print-Deck-Cards.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\bin\Debug\04-Print-Deck-Cards.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\bin\Debug\04-Print-Deck-Cards.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\obj\Debug\04-Print-Deck-Cards.csprojResolveAssemblyReference.cache
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\obj\Debug\04-Print-Deck-Cards.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\04-Print-Deck-Cards\obj\Debug\04-Print-Deck-Cards.pdb

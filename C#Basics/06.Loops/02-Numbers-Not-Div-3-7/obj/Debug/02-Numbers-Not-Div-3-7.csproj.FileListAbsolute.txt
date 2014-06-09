@@ -1,0 +1,5 @@
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\02-Numbers-Not-Div-3-7\bin\Debug\02-Numbers-Not-Div-3-7.exe.config
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\02-Numbers-Not-Div-3-7\bin\Debug\02-Numbers-Not-Div-3-7.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\02-Numbers-Not-Div-3-7\bin\Debug\02-Numbers-Not-Div-3-7.pdb
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\02-Numbers-Not-Div-3-7\obj\Debug\02-Numbers-Not-Div-3-7.exe
+W:\_SoftUni\C#Basics\06. Loops\6. Loops-Homework\Loops\02-Numbers-Not-Div-3-7\obj\Debug\02-Numbers-Not-Div-3-7.pdb

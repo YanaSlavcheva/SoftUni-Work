@@ -1,0 +1,276 @@
+﻿body, div, header, nav, ul, li, article, h1, h2, aside, a, footer, section {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin linear-gradient($first-color, $second-color, $direction) {
+    background: -moz-linear-gradient($direction, $first-color 0, $second-color 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient($direction, $first-color 0,$second-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient($direction, $first-color 0,$second-color 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient($direction, $first-color 0,$second-color 100%); /* IE10+ */
+}
+
+@mixin radial-gradient($first-color, $second-color) {
+    background: -moz-radial-gradient(center, ellipse cover, $first-color 0, $second-color 100%); /* FF3.6+ */
+    background: -webkit-radial-gradient(center, ellipse cover, $first-color 0,$second-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, $first-color 0,$second-color 100%); /* Opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, $first-color 0,$second-color 100%); /* IE10+ */
+}
+
+$purpleDark: #300030;
+$purpleLight: #FFF0FF;
+$blueDark: #0000AF;
+$blueLight: #F0F0FF;
+$greenDark: #003000;
+$greenLight: #F0FFF0;
+$yellowDark: #F5F500;
+$yellowLight: lightyellow;
+$orangeDark: #EB9100;
+$orangeLight: lightyellow;
+$redDark: #CD0000;
+$redLight: #FFE6E6;
+
+$sectionBackground: white;
+$bodyBackground: gray;
+$text: gray;
+
+body {
+    font-family: Tahoma;
+    font-size: 20px;
+    color: $text;
+    @include linear-gradient($bodyBackground, $sectionBackground, top);
+
+    #wrapper {
+        width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: $sectionBackground;
+        border: double;
+
+        > header {
+            padding: 10px 20px;
+            border: double;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            background-color: $sectionBackground;
+            margin-bottom: 20px;
+
+            nav {
+                list-style-type: none;
+                margin-top: 30px;
+                margin-bottom: 20px;
+
+                li {
+                    display: inline-block;
+                    margin-left: 60px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    a {
+                        font-size: 16px;
+                        padding: 10px 20px;
+                        color: $text;
+                        text-decoration: none;
+                        border: double;
+
+                        &:hover {
+                            @include linear-gradient($bodyBackground, $sectionBackground, top);
+                            color: $sectionBackground;
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+            width: 100%;
+            padding: 20px;
+            background-color: $sectionBackground;
+            border: double;
+            margin-bottom: 20px;
+
+            header {
+
+                h1 {
+                    font-size: 20px;
+                    font-weight: normal;
+                    text-decoration: underline;
+                }
+            }
+
+            article {
+                border: 1px solid gray;
+                padding: 20px;
+                margin-bottom: 10px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: normal;
+                }
+
+                div.innerContainer {
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+
+                    div {
+                        height: 150px;
+                        display: table-cell;
+                        text-align: center;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            &.linear {
+                article:nth-of-type(1) div.innerContainer div {
+                    &.purple {
+                        @include linear-gradient($purpleDark, $purpleLight, top);
+                    }
+
+                    &.blue {
+                        @include linear-gradient($blueDark, $blueLight, top);
+                    }
+
+                    &.green {
+                        @include linear-gradient($greenDark, $greenLight, top);
+                    }
+
+                    &.yellow {
+                        @include linear-gradient($yellowDark, $yellowLight, top);
+                    }
+
+                    &.orange {
+                        @include linear-gradient($orangeDark, $orangeLight, top);
+                    }
+
+                    &.red {
+                        @include linear-gradient($redDark, $redLight, top);
+                    }
+                }
+
+                article:nth-of-type(2) div.innerContainer div {
+                    &.purple {
+                        @include linear-gradient($purpleDark, $purpleLight, left);
+                    }
+
+                    &.blue {
+                        @include linear-gradient($blueDark, $blueLight, left);
+                    }
+
+                    &.green {
+                        @include linear-gradient($greenDark, $greenLight, left);
+                    }
+
+                    &.yellow {
+                        @include linear-gradient($yellowDark, $yellowLight, left);
+                    }
+
+                    &.orange {
+                        @include linear-gradient($orangeDark, $orangeLight, left);
+                    }
+
+                    &.red {
+                        @include linear-gradient($redDark, $redLight, left);
+                    }
+                }
+
+                article:nth-of-type(3) div.innerContainer div {
+                    &.purple {
+                        @include linear-gradient($purpleDark, $purpleLight, -45deg);
+                    }
+
+                    &.blue {
+                        @include linear-gradient($blueDark, $blueLight, -45deg);
+                    }
+
+                    &.green {
+                        @include linear-gradient($greenDark, $greenLight, -45deg);
+                    }
+
+                    &.yellow {
+                        @include linear-gradient($yellowDark, $yellowLight, -45deg);
+                    }
+
+                    &.orange {
+                        @include linear-gradient($orangeDark, $orangeLight, -45deg);
+                    }
+
+                    &.red {
+                        @include linear-gradient($redDark, $redLight, -45deg);
+                    }
+                }
+            }
+
+            &.radial {
+                article:nth-of-type(1) div.innerContainer div {
+                    &.purple {
+                        @include radial-gradient($purpleDark, $purpleLight);
+                    }
+
+                    &.blue {
+                        @include radial-gradient($blueDark, $blueLight);
+                    }
+
+                    &.green {
+                        @include radial-gradient($greenDark, $greenLight);
+                    }
+
+                    &.yellow {
+                        @include radial-gradient($yellowDark, $yellowLight);
+                    }
+
+                    &.orange {
+                        @include radial-gradient($orangeDark, $orangeLight);
+                    }
+
+                    &.red {
+                        @include radial-gradient($redDark, $redLight);
+                    }
+                }
+            }
+        }
+
+        footer {
+            background-color: $sectionBackground;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border: double;
+
+            h3 {
+                font-size: 20px;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+
+            ul {
+                width: 100%;
+                padding-bottom: 20px;
+
+                li {
+                    list-style-type: none;
+
+                    a{
+                        font-size: 16px;
+                        padding: 10px 20px;
+                        color: $text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

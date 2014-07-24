@@ -29,7 +29,7 @@ function pesho (input) {
 
     var output = '';
     for (var i = 0; i < userkeys.length; i++) {
-        var userIPKeys = [];
+        var userIPKeys = []; // this must be in the loop
         var sumMinutes = 0;
         for (var innerkey in assArr[userkeys[i]]) {
             if(assArr[userkeys[i]].hasOwnProperty(innerkey)) {

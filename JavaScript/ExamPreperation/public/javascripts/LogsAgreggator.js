@@ -19,32 +19,30 @@ function pesho (input) {
     console.log(assArr);
 
     //output
-    var userkeys = [];
+    var userKeys = [];
     for (var keyUser in assArr) {
         if(assArr.hasOwnProperty(keyUser)) {
-          userkeys.push(keyUser);
+          userKeys.push(keyUser);
         }
     }
-    userkeys.sort();
+    userKeys.sort();
 
     var output = '';
-    for (var i = 0; i < userkeys.length; i++) {
+    for (var i = 0; i < userKeys.length; i++) {
         var userIPKeys = []; // this must be in the loop
         var sumMinutes = 0;
-        for (var innerkey in assArr[userkeys[i]]) {
-            if(assArr[userkeys[i]].hasOwnProperty(innerkey)) {
-                userIPKeys.push(innerkey);
-                sumMinutes += assArr[userkeys[i]][innerkey];
+        for (var innerKey in assArr[userKeys[i]]) {
+            if(assArr[userKeys[i]].hasOwnProperty(innerKey)) {
+                userIPKeys.push(innerKey);
+                sumMinutes += assArr[userKeys[i]][innerKey];
             }
         }
-        output += userkeys[i] + ': ' + sumMinutes + ' [' + userIPKeys.sort().join(', ') + ']\n';
-
+        output += userKeys[i] + ': ' + sumMinutes + ' [' + userIPKeys.sort().join(', ') + ']\n';
     }
     console.log(output);
-
-
 }
 
+//the code below must not be copied to the judge system!
 pesho(['7',
     '192.168.0.11 peter 33',
     '10.10.17.33 alex 12',

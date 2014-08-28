@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head><title>SoftUniSQL</title></head>
+	<body>
+		<script>
+			var nextId = 0;
+
+			function addInput() {
+				nextId++;
+				var inputDiv = document.createElement("div");
+				inputDiv.setAttribute("id", "command" + nextId);
+				inputDiv.innerHTML =
+					"<input type='text' name='commands[]' /> " +
+						"<a href=\"javascript:removeElement('command" + nextId + "')\">[Remove]</a>" + "<br/>";
+				document.getElementById('parent').appendChild(inputDiv);
+			}
+
+			function removeElement(id) {
+				var inputDiv = document.getElementById(id);
+				document.getElementById('parent').removeChild(inputDiv);
+			}
+		</script>
+		<form method="GET" action="Problem-2-SoftUni-SQL.php">
+			<div id="parent">
+				<!-- We shall add inputs here with JavaScript -->
+			</div>
+			<script>addInput();</script>
+			<a href="javascript:addInput()">[Add]</a>
+			<br />
+			<input type="submit"/>
+		</form>
+	</body>
+</html>

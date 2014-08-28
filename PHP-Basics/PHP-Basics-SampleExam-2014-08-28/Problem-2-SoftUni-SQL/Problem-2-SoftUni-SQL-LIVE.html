@@ -1,0 +1,153 @@
+<?php
+$softUniSQLErrorCount = 0;
+$users = [];
+$commands = ["UPDAtE users SET (age = 30) WHERE (user_id = 1)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "UPDATE users SET (age = 30) WHERE (user_id = 1)", "INSERT INTO users (login, age) VALUES (yana, 20, female)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "INSERT INTO users (user_id, login, gender) VALUES (12, yana, female)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "INSrRT INTO users (login, age, gender) VALUES (yana, 20, female)", "UPDATE users SET (age = 30) WHERE (user_id = 1)", "UPDATE users SET (age = 30) WHERE (age = undefined)", "DELETE FROM users WHERE (age = 30)"];
+
+foreach ($commands as $command) {
+    switch  (substr($command, 0, 6)) {
+        case 'INSERT' : {
+            insertEntry($command);
+        } break;
+        case 'UPDATE': {
+            updateEntry($command);
+        } break;
+        case 'DELETE' : {
+            deleteEntry ($command);
+        } break;
+        default : $softUniSQLErrorCount++; break;
+    }
+}
+echo $softUniSQLErrorCount;
+
+function deleteEntry ($command) {
+    global $softUniSQLErrorCount;
+    global $users;
+    $startPosition = strpos($command, '(') + 1;
+    $lengthFields = strpos ($command, ')') - $startPosition ;
+    $condition = substr($command, $startPosition, $lengthFields);
+    $conditionsArr = preg_split('/\s*=\s*/', $condition);
+    $conditionKey = $conditionsArr[0];
+    $conditionValue = $conditionsArr[1];
+    if($conditionKey == 'login') {
+        $softUniSQLErrorCount++;
+        
+    } elseif ($conditionKey == 'user_id') {
+        unset($users[$conditionValue]);
+        
+    } else if ($conditionKey == 'age' || $conditionKey =='gender'){
+        
+        foreach ($users as $id => $innerArr) {
+            
+            if ($conditionValue == $users[$id][$conditionKey]) {
+                unset($users[$id]);
+            }
+        }
+        
+    } else {
+        $softUniSQLErrorCount++;
+    }
+}
+
+function updateEntry ($command){
+    global $users;
+    global $softUniSQLErrorCount;
+    $startPosition = strpos($command, '(') + 1;
+    $lengthFields = strpos ($command, ')') - $startPosition ;
+    $fields = substr($command, $startPosition, $lengthFields);
+    $fieldsArr = preg_split('/\s*=\s*/', $fields);
+    $fieldKey = $fieldsArr[0];
+    $fieldValue = $fieldsArr[1];
+
+    $startPosition = strpos($command, '(',strpos ($command, ')')) + 1;
+    $lengthCondition = strpos ($command, ')', strpos ($command, ')') + 1) - $startPosition ;
+    $condition = substr($command, $startPosition, $lengthCondition);
+    $conditionArr = preg_split('/\s*=\s*/', $condition);
+    $conditionKey = $conditionArr[0];
+    $conditionValue = $conditionArr[1];
+
+    $isValueKeyExist = $fieldKey == 'login' || $fieldKey == 'age' || $fieldKey == 'gender';
+    $isConditionKeyExist = $conditionKey == 'login' || $conditionKey == 'age' || $conditionKey == 'gender';
+    
+    if ($conditionKey == 'user_id') {
+        
+        if (array_key_exists($conditionValue, $users) && $isValueKeyExist ) {
+            $users[$conditionValue][$fieldKey] = $fieldValue;
+            
+        } else {
+            $softUniSQLErrorCount++;
+        }
+        
+    } elseif ($isConditionKeyExist && $isValueKeyExist) {
+        $hasError = true;
+        
+        foreach ($users as $key => $user) {
+            if (in_array($conditionValue, $user)) {
+                $users[$key][$fieldKey] = $fieldValue;
+                $hasError = false;
+            }
+        }
+        
+        if ($hasError){
+            $softUniSQLErrorCount++;
+        }
+
+    } else {
+        $softUniSQLErrorCount++;
+    }
+}
+
+//var_dump($users);
+
+function insertEntry($command) {
+    global $softUniSQLErrorCount;
+    global $users;
+    $startPosition = strpos($command, '(') + 1;
+    $lengthFields = strpos ($command, ')') - $startPosition ;
+    $fields = substr($command, $startPosition, $lengthFields);
+    $fieldsArr = explode(', ', $fields);
+
+    $startPosition = strpos($command, '(',strpos ($command, ')')) + 1;
+    $lengthFields = strpos ($command, ')', strpos ($command, ')') + 1) - $startPosition ;
+    $values = substr($command, $startPosition, $lengthFields);
+    $valuesArr = explode(', ', $values);
+    $hasNewId = false;
+    
+    if (count($fieldsArr) == count($valuesArr)) {
+        
+        if (in_array('login', $fieldsArr)){
+            $insertInfo = array_combine($fieldsArr, $valuesArr);
+            //var_dump($insertInfo);
+
+            if (array_key_exists('user_id', $insertInfo)) {
+                $tempId = $insertInfo['user_id'];
+                $hasNewId = true;
+                unset($insertInfo['user_id']);
+            }
+            
+            if (!array_key_exists('age', $insertInfo)) {
+                $insertInfo['age'] = 'undefined';
+            }
+            
+            if (!array_key_exists('gender', $insertInfo)) {
+                $insertInfo['gender'] = 'undefined';
+            }
+            
+            arsort($insertInfo);
+            
+            if ($hasNewId) {
+                $users[$tempId] = $insertInfo;
+                
+            } else {
+                $users[] = $insertInfo;
+            }
+            
+        } else {
+            $softUniSQLErrorCount++;
+        }
+        
+    } else {
+        $softUniSQLErrorCount++;
+    }
+}
+
+var_dump($users);

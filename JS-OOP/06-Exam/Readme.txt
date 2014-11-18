@@ -1,0 +1,1 @@
+The solution of the problem is just as it was when finished during the exam. The code has 40/100, because the sorting of the output is not finished.

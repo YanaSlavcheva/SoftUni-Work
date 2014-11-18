@@ -1,0 +1,254 @@
+body, div, html, span, h1, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html{
+    height: 100%;
+}
+
+#audioHolder{
+    display: none;
+}
+
+#gameScreen {
+    width: 90%;
+    height: 50%;
+    margin: 5% auto 0 auto;
+    background: #6296BB;
+}
+
+#button {
+    cursor: pointer;
+    font: sans-serif;
+    text-align: center;
+}
+
+#button:hover {
+    background: #555;
+    color: #fff;
+}
+
+.container{
+    background: #6296BB;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c3c3c3;
+    position: relative;
+    overflow: hidden;
+}
+
+.infoRow{
+    background: #C1B59C;
+    width: 100%;
+    font-family: "Tahoma", "Helvetica", San-serif;
+    font-size: 15px;
+    margin: 0 auto 5% auto;
+    border: 1px solid #c3c3c3;
+    text-align: center;
+}
+
+.infoRow > * {
+    width: 30.5%;
+    display: inline-block;
+}
+
+#score {
+    text-align: left;
+}
+
+#shots {
+    text-align: center;
+}
+
+#menu {
+    text-align: right;
+}
+
+#weapon{
+    width: 3%;
+    height: 26%;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: 16%;
+    left: 47%;
+
+    /* Rotate */
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* IE 9 */
+    -webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+    transform-origin: bottom center;
+    -ms-transform-origin: bottom center; /* IE 9 */
+    -webkit-transform-origin: bottom center;; /* Chrome, Safari, Opera */
+}
+
+.mountains{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.grass{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#weapon img:first-child {
+    visibility: hidden;
+    width: 100%;
+    height: 30%;
+}
+
+#weapon img:last-child {
+    width: 100%;
+    height: 65%;
+}
+
+
+.cupola {
+    background: url('../images/cupola.png') ;
+    box-shadow: 5px 5px 10px #000;
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    position: absolute;
+    z-index: 20;
+    bottom: 15%;
+    left: 44.5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.base {
+    background: url('../images/concrete.png');
+    box-shadow: 3px 3px 3px #000;
+    opacity: 0.8;
+    width: 22%;
+    height: 13%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    /*display: inline-block;*/
+    position: absolute;
+    z-index: 20;
+    bottom: 2%;
+    left: 37.8%;
+}
+
+.pellet {
+    width: 1%;
+    height: 5%;
+    position: absolute;
+    transform-origin: top left;
+    -ms-transform-origin: top left; /*IE 9 */
+    -webkit-transform-origin: top left; /*Chrome, Safari, Opera */
+}
+
+/*styles for the landParachutist*/
+#landParachutist {
+    /* simple box */
+    position:absolute;
+    z-index: 25;
+    left:0px;
+    top:8em;
+    width:5em;
+    line-height:3em;
+    background:#99ccff;
+    border:1px solid #003366;
+    white-space:nowrap;
+    padding:0.5em;
+}
+
+/*styles for plane*/
+
+@keyframes fade {
+    from{ opacity: 1}
+    to{ opacity: 0}
+}
+
+@-webkit-keyframes fade {
+    from{ opacity: 1}
+    to{ opacity: 0}
+}
+
+.fadeAnimation{
+    -webkit-animation: fade 1s forwards;
+    animation: fade 1s forwards;
+}
+
+
+/*styles for paratrooper*/
+
+.paratrooper {
+    width: 6%;
+    position: absolute;
+    z-index: 25;
+    transform-origin: top center;
+    -ms-transform-origin: top center; /* IE 9 */
+    -webkit-transform-origin: top center;; /* Chrome, Safari, Opera */
+}
+
+@keyframes shake-paratrooper {
+    from {
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg); /* IE 9 */
+    }
+    to {
+        transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg); /* IE 9 */
+    }
+}
+
+@-webkit-keyframes shake-paratrooper {
+    from  {
+        -webkit-transform: rotate(90deg); /* Opera, Chrome, and Safari */
+    }
+    to {
+        -webkit-transform: rotate(-90deg); /* Opera, Chrome, and Safari */
+    }
+
+}
+
+.shakeParatrooper {
+    -webkit-animation: shake-title 1s;
+    animation: shake-title 1s;
+    -webkit-animation-iteration-count: 3;  /* Safari and Chrome */
+    animation-iteration-count: 3;
+}
+
+.border {
+    border: solid 1px red;
+}
+
+
+.gifImgLeft {
+    position: absolute;
+    width: 18%;
+    bottom: 2%;
+    left:27%;
+    display: none;
+}
+
+.gifImgRight {
+    position: absolute;
+    width: 18%;
+    bottom: 2%;
+    left:53%;
+    display: none;
+}
+
+.gifImgCentar {
+    position: absolute;
+    width: 25%;
+    bottom: 15%;
+    left:35%;
+    z-index: 30;
+    display: none;
+}

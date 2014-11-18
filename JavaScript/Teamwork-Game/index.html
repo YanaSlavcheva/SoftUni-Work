@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Game</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css"/>
+    <link rel="stylesheet" href="style/title-animation.css" type="text/css"/>
+    <script src="js/score.js" defer></script>
+    <script src="js/plane.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/weapon.js" defer></script>
+    <script src="js/parachutist.js" defer></script>
+    <script src="js/game.js" defer></script>
+</head>
+<body>
+<!-- Аудио тагове с песнички към играта -->
+<div id="audioHolder">
+    <audio id="shot" src="audio/AntiAir.mp3" preload="auto"></audio>
+    <audio id="planeFly" src="audio/FlyingPlane.mp3" preload="auto"></audio>
+    <audio id="planeExplode" src="audio/ExplodingPlane.mp3" preload="auto"></audio>
+    <audio id="nakovFinal" src="audio/NakovFinalSaying.mp3" preload="auto"></audio>
+</div>
+
+<!-- екрана на играта, в който ще се осъществява всичко - START -->
+<div id="gameScreen">
+    <div id="gameTitle">
+        <h1 id="title">NakovSky</h1>
+        <ul id="startMenu">
+            <li id="start">Start Game</li>
+        </ul>
+    </div>
+    <button id="button">Click me</button>
+    <div class="container" id="container">
+        <div id="weapon">
+            <img src="images/fire.png"><img src="images/gun.png">
+        </div>
+        <div class="cupola"></div>
+        <div id="base" class="base"></div>
+
+        <img src="images/background.png" class="mountains">
+        <img src="images/grass.png" class="grass">
+        <img id="gifL" src="images/invasionNakovLeft.gif" class="gifImgLeft">
+        <img id="gifR" src="images/invasionNakovRight.gif" class="gifImgRight">
+        <img id="gifC" src="images/finFire.gif" class="gifImgCentar">
+    </div>
+    <div id="infoRow" class="infoRow">
+        <div id="score" onclick="startGame()">Score: <span id="scoreHolder">0</span></div>
+        <div id="shots">20</div>
+        <div id="menu" onclick="JavaScript: location.href=location.href">New Game</div>
+    </div>
+</div>
+<span class="tester" id="tester"></span>
+<!-- екрана на играта, в който ще се осъществява всичко - END -->
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+#infoRow, #container, #gameTitle {
+    display: none;
+}
+
+#gameScreen button {
+    width: 30%;
+    height: 20%;
+    font-size: 5rem;
+    display: inline-block;
+    margin: 25% 35%;
+}
+
+#gameTitle {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#gameTitle h1 {
+    font-size: 10px;
+    margin-top: 3%;
+    color: #fff;
+    text-shadow: 0 2px 0 #999, 0 4px 0 #888, 0 6px 0 #777, 0 8px 0 #666, 0 10px 0 #555, 0 12px 0 #444, 0 14px 0 #333, 0 16px 14px #001135;
+    transform: rotate(6deg);
+    -ms-transform: rotate(6deg); /* IE 9 */
+    -webkit-transform: rotate(6deg); /* Opera, Chrome, and Safari */
+    transform-origin: bottom right;
+    -ms-transform-origin: bottom right; /* IE 9 */
+    -webkit-transform-origin: bottom right;; /* Chrome, Safari, Opera */
+}
+
+@keyframes shake-title {
+    0% {
+        transform: rotate(6deg);
+        -ms-transform: rotate(6deg); /* IE 9 */
+    }
+    20% {
+        transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg); /* IE 9 */
+    }
+    40% {
+        transform: rotate(4deg);
+        -ms-transform: rotate(4deg); /* IE 9 */
+    }
+    60% {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+    }
+    80% {
+        transform: rotate(1.5deg);
+        -ms-transform: rotate(1.5deg); /* IE 9 */
+    }
+    100% {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+    }
+}
+
+@-webkit-keyframes shake-title {
+    0% {
+        -webkit-transform: rotate(6deg); /* Opera, Chrome, and Safari */
+    }
+    20% {
+        -webkit-transform: rotate(-1deg); /* Opera, Chrome, and Safari */
+    }
+    40% {
+        -webkit-transform: rotate(4deg); /* Opera, Chrome, and Safari */
+    }
+    60% {
+        -webkit-transform: rotate(0deg); /* Opera, Chrome, and Safari */
+    }
+    80% {
+        -webkit-transform: rotate(2deg); /* Opera, Chrome, and Safari */
+    }
+    100% {
+        -webkit-transform: rotate(0deg); /* Opera, Chrome, and Safari */
+    }
+}
+
+.shake {
+    -webkit-animation: shake-title 1s forwards;
+    animation: shake-title 1s forwards;
+}
+
+#gameTitle ul  {
+    background: #fff;
+    width: 25%;
+    display: none;
+    box-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 0 #555, 0 6px 0 #444, 0 7px 0 #333, 0 8px 8px #001135;
+    list-style-type: none;
+}
+
+#gameTitle ul li{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+

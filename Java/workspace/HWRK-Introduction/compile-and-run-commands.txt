@@ -1,0 +1,10 @@
+developer@dev:~$ cd Desktop/Java-Basics/src
+developer@dev:~/Desktop/Java-Basics/src$ dir
+_03PrintHometown.class	_05CurrentDateTime.class  _06SumTwoNumbers.java
+_03PrintHometown.java	_05CurrentDateTime.java
+developer@dev:~/Desktop/Java-Basics/src$ javac _06SumTwoNumbers.java 
+developer@dev:~/Desktop/Java-Basics/src$ java _06SumTwoNumbers 
+Enter two integers on seperate lines:
+2
+5
+The sum is 7

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="TownsEditAdded.js"></script>
+    <script type="text/javascript" src="01-TreeViewPlugin.js"></script>
+</head>
+<body>
+    <section class="widget">
+        <h2>Countries</h2>
+        <h3>Click on the countries to view the towns.</h3>
+        <ul id="countries">
+        </ul>
+    </section>
+
+    <fieldset>
+        <legend>Countries Edit Panel</legend>
+        <label for="addedCountry">Name of country to add</label><br/>
+        <input id="addedCountry" type="text"/>
+        <a id="addCountry" href="#">Add Country</a><br/>
+
+        <label for="deletedCountry">Name of country to delete</label><br/>
+        <input id="deletedCountry" type="text"/>
+        <a id="deleteCountry" href="#">Delete Country</a><br/>
+
+        <label for="currentName">Name of country to change</label>
+        <span>/</span>
+        <label for="newName">New name of country to change</label><br/>
+        <input id="currentName" type="text"/>
+        <input id="newName" type="text"/>
+        <a id="updateCountry" href="#">Rename Country</a><br/>
+    </fieldset>
+
+    <fieldset>
+        <legend>Towns Edit Panel</legend>
+        <label for="addedTown">Name of town to add</label>
+        <span>/</span>
+        <label for="countryForTown">Country name (for the town)</label><br/>
+        <input id="addedTown" type="text"/>
+        <input id="countryForTown" type="text"/>
+        <a id="addTown" href="#">Add Town</a><br/>
+
+        <label for="deletedTown">Name of town to delete</label><br/>
+        <input id="deletedTown" type="text"/>
+        <a id="deleteTown" href="#">Delete Town</a><br/>
+
+        <label for="currentName">Name of town to change</label>
+        <span>/</span>
+        <label for="newName">New name of town to change</label><br/>
+        <input id="currentNameTown" type="text"/>
+        <input id="newNameTown" type="text"/>
+        <a id="updateTown" href="#">Rename Town</a><br/>
+    </fieldset>
+
+
+<p>Please, have in mind that you are changing the database, when you test. Thank you!</p>
+
+</body>
+</html>

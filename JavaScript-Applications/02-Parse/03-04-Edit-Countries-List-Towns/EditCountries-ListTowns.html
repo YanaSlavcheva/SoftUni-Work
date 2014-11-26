@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="EditCountries-ListTowns.js"></script>
+    <script type="text/javascript" src="01-TreeViewPlugin.js"></script>
+</head>
+<body>
+    <section class="widget">
+        <h2>Countries</h2>
+        <h3>Click on the countries to view the towns.</h3>
+        <ul id="countries">
+        </ul>
+    </section>
+	
+	<label for="addedCountry">Name of country to add</label><br/>
+    <input id="addedCountry" type="text"/>
+    <a id="addCountry" href="#">Add Country</a><br/>
+
+	<label for="deletedCountry">Name of country to delete</label><br/>
+    <input id="deletedCountry" type="text"/>
+    <a id="deleteCountry" href="#">Delete Country</a><br/>
+	
+	<label for="currentName">Name of country to change</label>
+	<span>/</span>
+	<label for="newName">New name of country to change</label><br/>
+    <input id="currentName" type="text"/>
+    <input id="newName" type="text"/>
+    <a id="updateCountry" href="#">Rename Country</a><br/>
+
+<p>Please, have in mind that you are changing the database, when you test. Thank you!</p>
+
+</body>
+</html>

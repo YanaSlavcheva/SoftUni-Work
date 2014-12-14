@@ -1,0 +1,33 @@
+<header>
+    <img class="img-header" src="imgs/trash.png" width="50px"/>
+    <h1 class="site-header">Products</h1>
+    <nav id="menu">
+        <ul>
+            <li class="nav-button"><a href="#/">Home</a></li>
+            <li class="nav-button"><a href="#/products">Products</a></li>
+            <li class="nav-button"><a href="#/addProduct">Add Product</a></li>
+            <li class="nav-button" id="logout"><a href="#/login">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="main">
+    <section>
+        <div class="add-product-form">
+            <header class="main-header">Add new product</header>
+            <div class="data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Item name..."/>
+                <label for="category">Category:</label>
+                <input type="text" id="category" placeholder="Category..."/>
+                <label for="price">Price:</label>
+                <input type="number" id="price" placeholder="0.00"/>
+            </div>
+            <div class="panel">
+                <button id="add-product-button" class="button">Add</button>
+                <a href="#">
+                    <button class="button">Cancel</button>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>

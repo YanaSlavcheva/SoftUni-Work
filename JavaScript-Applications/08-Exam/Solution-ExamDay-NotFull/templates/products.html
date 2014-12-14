@@ -1,0 +1,55 @@
+<header>
+    <img class="img-header" src="imgs/trash.png" width="50px"/>
+    <h1 class="site-header">Products</h1>
+    <nav id="menu">
+        <ul>
+            <li class="nav-button"><a href="#/">Home</a></li>
+            <li class="nav-button"><a href="#/products">Products</a></li>
+            <li class="nav-button"><a href="#/addProduct">Add Product</a></li>
+            <li class="nav-button" id="logout"><a href="#/login">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="main">
+    <section>
+        <!--TODO make filtering-->
+        <aside class="filters">
+            <h3>Filter</h3>
+            <input id="search-bar" class="search-bar" type="text" placeholder="Keyword.."/>
+            <label>Price:</label>
+            <input id="min-price" class="input-num" type="number" value="0" min="0"/>
+            <span>-</span>
+            <input id="max-price" class="input-num" type="number" value="10000"/>
+            <label>Category:</label>
+            <select id="category" class="category">
+                <option value="All">All</option>
+                <option value="Animals">Animals</option>
+                <option value="Food">Food</option>
+                <option value="Other">Other</option>
+            </select>
+            <button id="filter" class="filter-button">Filter</button>
+            <p class="clear-filters" id="clear-filters">Clear filters</p>
+        </aside>
+        <div class="products">
+            <ul>
+                {{#results}}
+                <li class="product" data-id="{{objectId}}">
+                    <div class="product-info">
+                        <p class="item-name">{{name}}</p>
+                        <p class="category"><span class="pre">Category:</span>{{category}}</p>
+                        <p class="price"><span class="pre">Price:</span> ${{price}}</p>
+                    </div>
+                    <footer class="product-footer" data-id="{{objectId}}">
+                        <a a href="#/editProduct">
+                            <button data-id="{{objectId}}" class="edit-button">Edit</button>
+                        </a>
+                        <a href="#">
+                            <button data-id="{{objectId}}" class="delete-button">Delete</button>
+                        </a>
+                    </footer>
+                </li>
+                {{/results}}
+            </ul>
+        </div>
+    </section>
+</div>

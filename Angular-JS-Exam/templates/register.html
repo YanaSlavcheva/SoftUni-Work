@@ -1,0 +1,39 @@
+<div class="box">
+    <h2>Register</h2>
+    <p>
+        <label for="username">Username:</label>
+        <input type="text" id="username" ng-model="userData.username" required />
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" ng-model="userData.password" required />
+    </p>
+    <p>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" ng-model="userData.confirmPassword" required />
+    </p>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" ng-model="userData.name" required />
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" ng-model="userData.email" required />
+    </p>
+    <p>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" ng-model="userData.phone" required />
+    </p>
+    <p>
+        <label for="town">Town:</label>
+        <select id="town" ng-model="userData.townId">
+            <option value="null">(None)</option>
+            <option ng-repeat="town in towns"
+                    value="{{town.id}}">{{town.name}}</option>
+        </select>
+    </p>
+    <p>
+        <a ng-click="register(userData)" class="button">Register</a>
+        <a href="#/login" class="link">Login</a>
+    <p>
+</div>

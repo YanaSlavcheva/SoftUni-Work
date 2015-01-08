@@ -1,0 +1,33 @@
+<!-- Navigation box for anonymous site visitors -->
+<div ng-if="authService.isAnonymous()" class="box">
+    <h2>Navigation</h2>
+    <ul class="sidebar-menu">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/login">Login</a></li>
+        <li><a href="#/register">Register</a></li>
+    </ul>
+</div>
+
+<!-- Login / register box for anonymous site visitors -->
+<div class="box" ng-if="authService.isAnonymous()">
+    <p>To publish a new ad, please login.</p>
+    <a href="#/login" class="button">Login</a>
+    <a href="#/register" class="button">Register</a>
+</div>
+
+<!-- Navigation box for logged in normal users (not admins) -->
+<div ng-if="authService.isNormalUser()" class="box">
+    <h2>Navigation</h2>
+    <ul class="sidebar-menu">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/user/ads">My Ads</a></li>
+        <li><a href="#/user/ads/publish">Publish New Ad</a></li>
+        <!-- TODO: add “Edit Profile” link -->
+        <li><a ng-click="logout()">Logout</a></li>
+    </ul>
+</div>
+
+<!-- Navigation box for logged in admins -->
+<div ng-if="authService.isAdmin()" class="box">
+    <!-- TODO: implement the “Admin” navigation sidebar -->
+</div>

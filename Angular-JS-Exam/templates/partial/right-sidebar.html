@@ -1,0 +1,32 @@
+<div class="box">
+    <h2>Categories</h2>
+    <ul class="sidebar-menu">
+        <li class="special"
+            ng-class="{'selected' : selectedCategoryId == null}"
+            ng-click="categoryClicked(null)">
+            All
+        </li>
+        <li ng-repeat="category in categories"
+            ng-click="categoryClicked(category.id)"
+            ng-class="{'selected' : selectedCategoryId == category.id}">
+            {{category.name}}
+        </li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Towns</h2>
+    <ul class="sidebar-menu">
+        <li class="special"
+            ng-class="{'selected' : selectedTownId == null}"
+            ng-click="townClicked(null)">
+            All
+        </li>
+        <li ng-repeat="town in towns"
+            ng-click="townClicked(town.id)"
+            ng-class="{'selected' : selectedTownId == town.id}">
+            {{town.name}}
+        </li>
+    </ul>
+</div>
+

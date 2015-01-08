@@ -1,0 +1,180 @@
+body {
+    font-family: Calibri, Arial, serif;
+    background-color: #E2F0D9;
+}
+
+#app-header {
+    background-color: #A9D18E;
+    border: #507E32 1px solid;
+    text-align: center;
+    padding: 5px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: black;
+    text-shadow: rgba(255, 255, 255, 0.5) 0.5px 0.5px 1px;
+    margin: 5px;
+}
+
+#app-header .user-area {
+    float: right;
+    font-size: 11pt;
+    font-weight: normal;
+    margin: 5px 5px 0 0;
+}
+
+#app-header .user-area span {
+    margin-right: 15px;
+}
+
+#app-footer {
+    clear: both;
+    background-color: #A9D18E;
+    border: #507E32 1px solid;
+    text-align: center;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: normal;
+    color: black;
+    text-shadow: rgba(255, 255, 255, 0.5) 0.3px 0.3px 1px;
+    margin: 5px;
+}
+
+ul.pagination {
+    display: table;
+    margin: 15px auto;
+}
+
+ul.ads {
+    padding: 0;
+}
+
+ul.ads li {
+    list-style-type: none;
+}
+
+.box {
+    width: 100%;
+    display: block;
+    background: #A9D18E;
+    border: #507E32 1px solid;
+    margin: 15px 0;
+    padding: 10px;
+    box-shadow: rgba(80, 126, 50, 0.5) 0.5px 0.5px 3px;
+}
+
+.box h1 {
+    margin: 0 0 10px 0;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    text-shadow: rgba(255, 255, 255, 0.5) 0.3px 0.3px 1px;
+}
+
+.box h2 {
+    margin: 0 0 10px 0;
+    font-size: 16pt;
+    font-weight: bold;
+    color: black;
+    text-shadow: rgba(255, 255, 255, 0.5) 0.3px 0.3px 1px;
+}
+
+ul.sidebar-menu {
+    padding: 0px 5px;
+}
+
+ul.sidebar-menu li {
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 2px;
+    color: #1c381c;
+}
+
+ul.sidebar-menu li:hover {
+    background: #9ec684; ;
+}
+
+ul.sidebar-menu li.special {
+    font-style: italic;
+}
+
+ul.sidebar-menu li.selected {
+    background: #DAA600;
+    border: 1px solid #7F6000;
+}
+
+ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
+    outline: none;
+    display: block;
+    text-decoration: none;
+    color: #1c381c;
+}
+
+.button, .button:focus {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+    background: #70AD47;
+    border: 2px solid #507E32;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 5px 10px 0px 10px;
+    outline: none;
+}
+
+.button:hover {
+    background: #87c649;
+    border: 2px solid #649636;
+    text-decoration: none;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+    cursor: pointer;
+}
+
+.link {
+    color: #2E75B6;
+    text-decoration: none;
+    padding: 0;
+    border-bottom: 1px dotted #2E75B6;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #29619d;
+    text-decoration: none;
+}
+
+.no-data {
+    font-size: 18px;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid rgba(100, 155, 63, 0.51);
+    text-align: center;
+}
+
+.image-box:before
+{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image-box img, .image-box p {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ad-image {
+    max-width: 150px;
+    max-height: 150px;
+}

@@ -243,3 +243,12 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
     border: 1px dotted #507e32;
     margin-bottom: 10px;
 }
+
+.ad-info-edit {
+    display:inline-block;
+    width:300px;
+    padding:5px;
+    background-color: #eff8e8;
+    border: 1px dotted #507e32;
+    margin-bottom: 10px;
+}

@@ -49,7 +49,7 @@ app.factory('userService',
                 $http(request).success(success).error(error);
             },
 
-            editAd : function (adData, success, error) {
+            editAd: function (adData, success, error) {
                 var request = {
                     method: 'PUT',
                     url: baseServiceUrl + '/api/user/ads/'+ adData.id,

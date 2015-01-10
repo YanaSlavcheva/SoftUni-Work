@@ -37,7 +37,7 @@ app.controller('AdEditController',
         $scope.deleteImage = function() {
             $scope.adData.changeimage = true;
             $scope.adData.imageDataUrl = '';
-            notifyService.showInfo('The image will be deleted');
+            notifyService.showInfo('The image was deleted successfully');
         };
 
         $scope.fileSelected = function(fileInputField) {

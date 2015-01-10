@@ -1,0 +1,43 @@
+<div class="box">
+    <h1>Edit ad</h1>
+    <div>
+        <form>
+            <div><strong class="ad-info-define">Title: </strong><input type="text"  value="{{ad.title}}" ng-model="ad.title"/></div>
+            <div><strong class="ad-info-define">Text: </strong><textarea ng-model="ad.text">{{ad.text}}</textarea></div>
+            <div>
+                <strong class="ad-info-define"><label for="newImage">Image: </label></strong>
+                <input type="file" id="newImage" onchange="angular.element(this).scope().fileSelected(this)" />
+                <div ng-if='ad.imageDataUrl'>
+                    <strong class="ad-info-define">Old image: </strong>
+                    <img ng-src="{{ad.imageDataUrl}}" />
+                    <button ng-click="deleteImage()">Delete</button>
+                </div>
+            </div>
+
+            <br />
+            <div>
+                <div >
+                    <h3>Town: </h3>
+                    <select>
+                        <option value="" style="display: none"></option>
+                        <option ng-repeat="town in towns" value="{{town.id}}" ng-if="ad.townName == town.name" selected="selected">{{town.name}}</option>
+                        <option ng-repeat="town in towns" value="{{town.id}}" ng-if="ad.townName != town.name" >{{town.name}}</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>Category: </h3>
+                    <select class="selectInEdit" ng-model="ad.categoryId">
+                        <option value=""></option>
+                        <option ng-repeat="cat in categories" value="{{cat.id}}" ng-if="ad.categoryName == cat.name" selected="selected">{{cat.name}}</option>
+                        <option ng-repeat="cat in categories" value="{{cat.id}}" ng-if="ad.categoryName != cat.name" >{{cat.name}}</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <a class="button" ng-click="editAd(ad)">Edit</a>
+            <a class="button" ng-click="cancel()">Cancel</a>
+
+        </form>
+    </div>
+</div>

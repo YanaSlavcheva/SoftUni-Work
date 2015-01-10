@@ -26,7 +26,7 @@
         </div>
         <div class="ad-edit" ng-if="ad.status == 'Inactive'">
             <div><strong class="ad-info-define">Status:</strong> <span class="ad-status">{{ad.status}}</span></div>
-            <a href="#/user/ads/edit" class="button">Edit</a>
+            <a href="#/user/edit/{{ad.id}}" class="button" ng-if="ad.status == 'Inactive'">Edit</a>
             <a class="button" ng-click="publishAgainAd(ad.id)">Publish Again</a>
             <a href="#/login" class="button">Delete</a>
         </div>

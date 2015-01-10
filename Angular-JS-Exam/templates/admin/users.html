@@ -1,0 +1,17 @@
+<pagination total-items="users.numItems" ng-model="usersParams.startPage"
+            items-per-page="usersParams.pageSize" ng-change="reloadUsers()"
+            max-size="9" boundary-links="true">
+</pagination>
+
+<ul class="users">
+    <li ng-repeat="user in users.users" class="box">
+        <div><strong>Username</strong> {{user.username}}</div>
+        <div><strong>Name</strong> {{user.name}}</div>
+        <div><strong>Email</strong> {{user.email}}</div>
+        <div><strong>Phone</strong> {{user.phonenumber}}</div>
+    </li>
+</ul>
+
+<div ng-if="users.users.length==0" class="box no-data">
+    No users found.
+</div>

@@ -29,5 +29,11 @@
 
 <!-- Navigation box for logged in admins -->
 <div ng-if="authService.isAdmin()" class="box">
-    <!-- TODO: implement the “Admin” navigation sidebar -->
+    <h2>Navigation</h2>
+    <ul class="sidebar-menu">
+        <li><a href="#/">Ads</a></li>
+        <li><a href="#/admin/users">Users</a></li>
+        <li><a href="#/admin/categories">Categories</a></li>
+        <li><a href="#/admin/towns">Towns</a></li>
+    </ul>
 </div>

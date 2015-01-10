@@ -16,16 +16,3 @@ app.controller('AppController',
 );
 
 
-
-////
-//authService.login(userData,
-//    function success() {
-//        notifyService.showInfo("Login successful");
-//        $location.path("/");
-//    },
-//    function error(err) {
-//        notifyService.showError("Cannot login", err);
-//    }
-//);
-
-

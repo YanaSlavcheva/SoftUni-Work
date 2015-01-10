@@ -1,14 +1,16 @@
 'use strict';
 
 app.factory('adminService',
-    function ($resource, baseServiceUrl) {
-        var usersResource = $resource(
-                baseServiceUrl + '/api/admin/users'
-        );
-
-        return {
-            getUsers: function(success, error) {
-                return usersResource.query(success, error);
+    function ($http, baseServiceUrl, authService) {
+        return{
+            getUsers: function (params, success, error) {
+                var request = {
+                    method: 'GET',
+                    url: baseServiceUrl + '/api/admin/users',
+                    headers: authService.getAuthHeaders(),
+                    params: params
+                };
+                $http(request).success(success).error(error);
             }
         }
     }

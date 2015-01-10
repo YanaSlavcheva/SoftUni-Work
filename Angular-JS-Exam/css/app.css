@@ -1,3 +1,7 @@
+div, span {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Calibri, Arial, serif;
     background-color: #E2F0D9;
@@ -177,4 +181,26 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 .ad-image {
     max-width: 150px;
     max-height: 150px;
+}
+
+.ad-info {
+    display:inline-block;
+    width:300px;
+    padding:10px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.ad-info-define {
+    display:inline-block;
+    width:100px;
+    height:30px;
+    padding:5px;
+    border: 1px solid green;
+}
+
+.ad-info-box {
+    display: inline-block;
+    border: 1px solid red;
 }

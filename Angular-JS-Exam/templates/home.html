@@ -1,24 +1,24 @@
 <h2>Home Screen</h2>
 <pagination total-items="ads.numItems" ng-model="adsParams.startPage"
             items-per-page="adsParams.pageSize" ng-change="reloadAds()"
-            max-size="9" boundary-links="true">
+            max-size="12" boundary-links="true">
 </pagination>
 
 <ul class="ads">
     <li ng-repeat="ad in ads.ads" class="box">
         <h1>{{ad.title}}</h1>
-        <div class="ad-info-box">
-        <div><strong>Date:</strong> {{ad.date | date: 'dd-MM-yyyy'}}</div>
-        <div ng-if='ad.imageDataUrl'>
-            <strong>Image:</strong>
-            <img class="ad-image" ng-src="{{ad.imageDataUrl}}"/>
+        <div class="ad-image-box">
+            <div><strong class="ad-info-define">Date:</strong> <span class="ad-date">{{ad.date | date: 'dd-MM-yyyy'}}</span></div>
+            <div ng-if='ad.imageDataUrl'>
+                <strong class="ad-info-define">Image:</strong>
+                <img class="ad-image" ng-src="{{ad.imageDataUrl}}"/>
+            </div>
         </div>
-        </div>
         <div class="ad-info-box">
-        <div><strong class="ad-info-define">Text:</strong> <span class="ad-info">{{ad.text}}</span></div>
-        <div><strong class="ad-info-define">Name:</strong> <span class="ad-info">{{ad.ownerName}}</span></div>
-        <div><strong class="ad-info-define">Email:</strong> <span class="ad-info">{{ad.ownerEmail}}</span></div>
-        <div><strong class="ad-info-define">Phone:</strong> <span class="ad-info">{{ad.ownerPhone}}</span></div>
+            <div><strong class="ad-info-define">Text:</strong> <span class="ad-info">{{ad.text}}</span></div>
+            <div><strong class="ad-info-define">Name:</strong> <span class="ad-info">{{ad.ownerName}}</span></div>
+            <div><strong class="ad-info-define">Email:</strong> <span class="ad-info">{{ad.ownerEmail}}</span></div>
+            <div><strong class="ad-info-define">Phone:</strong> <span class="ad-info">{{ad.ownerPhone}}</span></div>
         </div>
     </li>
 </ul>

@@ -161,6 +161,7 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
     display: inline-block;
     border: 1px solid rgba(100, 155, 63, 0.51);
     text-align: center;
+    margin-left: 10px;
 }
 
 .image-box:before
@@ -179,28 +180,40 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 }
 
 .ad-image {
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
 }
 
 .ad-info {
     display:inline-block;
     width:300px;
-    padding:10px;
-    background-color: lightgreen;
-    border: 1px solid green;
-    margin: 10px;
+    padding:5px;
+    background-color: #c5e0b4;
+    border: 1px dotted #507e32;
+    margin-bottom: 10px;
 }
 
 .ad-info-define {
     display:inline-block;
-    width:100px;
+    width:60px;
     height:30px;
     padding:5px;
-    border: 1px solid green;
+    vertical-align: top;
 }
 
-.ad-info-box {
+.ad-info-box, .ad-image-box {
     display: inline-block;
-    border: 1px solid red;
+    vertical-align: top;
+}
+
+.ad-image-box {
+    width: 220px;
+}
+
+.ad-date {
+    display:inline-block;
+    width:150px;
+    padding:5px;
+    background-color: #c5e0b4;
+    border: 1px dotted #507e32;
+    margin-bottom: 10px;
 }

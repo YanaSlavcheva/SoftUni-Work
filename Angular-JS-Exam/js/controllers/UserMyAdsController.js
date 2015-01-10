@@ -30,6 +30,32 @@ app.controller('UserMyAdsController',
             );
         };
 
+        $scope.deactivateAd = function(id) {
+            userService.deactivateAd(
+                id,
+                function success(data) {
+                    notifyService.showInfo("Successfully deactivated your ad");
+                    $scope.reloadAds();
+                },
+                function error(err) {
+                    notifyService.showError("Cannot deactivate your ad", err);
+                }
+            );
+        };
+
+        $scope.publishAgainAd = function(id) {
+            userService.publishAgainAd(
+                id,
+                function success(data) {
+                    notifyService.showInfo("Successfully published again your ad");
+                    $scope.reloadAds();
+                },
+                function error(err) {
+                    notifyService.showError("Cannot publish again your ad", err);
+                }
+            );
+        };
+
         $scope.$on("categorySelectionChanged", function(event, selectedCategoryId) {
             $scope.adsParams.categoryId = selectedCategoryId;
             $scope.adsParams.startPage = 1;

@@ -22,12 +22,12 @@
         </div>
         <div class="ad-edit" ng-if="ad.status != 'Inactive'">
             <div><strong class="ad-info-define">Status:</strong> <span class="ad-status">{{ad.status}}</span></div>
-            <a href="#/login" class="button">Deactivate</a>
+            <a class="button" ng-click="deactivateAd(ad.id)">Deactivate</a>
         </div>
         <div class="ad-edit" ng-if="ad.status == 'Inactive'">
             <div><strong class="ad-info-define">Status:</strong> <span class="ad-status">{{ad.status}}</span></div>
             <a href="#/user/ads/edit" class="button">Edit</a>
-            <a href="#/login" class="button">Publish Again</a>
+            <a class="button" ng-click="publishAgainAd(ad.id)">Publish Again</a>
             <a href="#/login" class="button">Delete</a>
         </div>
     </li>

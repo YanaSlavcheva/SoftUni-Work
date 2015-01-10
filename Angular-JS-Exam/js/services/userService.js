@@ -23,11 +23,21 @@ app.factory('userService',
             },
 
             deactivateAd: function (id, success, error) {
-                // TODO
+                var request = {
+                    method: 'PUT',
+                    url: baseServiceUrl + '/api/user/ads/deactivate/' + id,
+                    headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
             },
 
             publishAgainAd: function (id, success, error) {
-                // TODO
+                var request = {
+                    method: 'PUT',
+                    url: baseServiceUrl + '/api/user/ads/publishagain/' + id,
+                    headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
             }
         }
     }

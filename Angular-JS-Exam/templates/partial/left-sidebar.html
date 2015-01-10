@@ -22,19 +22,25 @@
         <li><a href="#/">Home</a></li>
         <li><a href="#/user/ads">My Ads</a></li>
         <li><a href="#/user/ads/publish">Publish New Ad</a></li>
-        <!-- TODO: add “Edit Profile” link -->
+        <li><a href="#/user/profile/edit">Edit Profile</a></li>
         <li><a ng-click="logout()">Logout</a></li>
     </ul>
 </div>
 
-<div ng-if="location.path() == '#/user/ads'" class="box">
+<!--<div ng-if="location.path() == '#/user/ads'" class="box">-->
+<div ng-if="authService.isNormalUser()" class="box">
     <h2>Ads</h2>
     <ul class="sidebar-menu">
-        <li><a href="#/admin/ads" class="special">All</a></li>
-        <li><a href="#/admin/ads/published">Published</a></li>
-        <li><a href="#/admin/ads/waiting">Waiting Approval</a></li>
-        <li><a href="#/admin/ads/inactive">Inactive</a></li>
-        <li><a href="#/admin/ads/rejected">Rejected</a></li>
+        <li><a href="#/user/ads" ng-click="statusClicked(null)">All</a></li>
+        <li><a href="#/user/ads/published" ng-click="statusClicked('Published')"
+               ng-class="{'selected' : clickedStatusString == 'Published'}"
+                >Published</a></li>
+        <li><a href="#/user/ads/waiting" ng-click="statusClicked('WaitingApproval')"
+               ng-class="{'selected' : clickedStatusString == 'WaitingApproval'}">Waiting Approval</a></li>
+        <li><a href="#/user/ads/inactive" ng-click="statusClicked('Inactive')"
+               ng-class="{'selected' : clickedStatusString == 'Inactive'}">Inactive</a></li>
+        <li><a href="#/user/ads/rejected" ng-click="statusClicked('Rejected')"
+               ng-class="{'selected' : clickedStatusString == 'Rejected'}">Rejected</a></li>
     </ul>
 </div>
 

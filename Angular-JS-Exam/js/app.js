@@ -22,8 +22,8 @@ app.config(function ($routeProvider) {
         controller: 'RegisterController'
     });
 
-    $routeProvider.when('/user/edit', {
-        templateUrl: 'templates/editProfile.html',
+    $routeProvider.when('/user/profile/edit', {
+        templateUrl: 'templates/user/editProfile.html',
         controller: 'ProfileEditController'
     });
 

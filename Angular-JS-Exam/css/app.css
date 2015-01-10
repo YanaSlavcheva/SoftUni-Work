@@ -156,8 +156,8 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 }
 
 .image-box {
-    width: 150px;
-    height: 150px;
+    min-width:100px;
+    width:75%;
     display: inline-block;
     border: 1px solid rgba(100, 155, 63, 0.51);
     text-align: center;
@@ -180,12 +180,15 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 }
 
 .ad-image {
-    width: 150px;
+    min-width:100px;
+    width:75%;
+    margin-bottom: 10px;
 }
 
 .ad-info {
     display:inline-block;
-    width:300px;
+    min-width:100px;
+    width:75%;
     padding:5px;
     background-color: #c5e0b4;
     border: 1px dotted #507e32;
@@ -194,7 +197,8 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 
 .ad-info-define {
     display:inline-block;
-    width:60px;
+    min-width:60px;
+    width:15%;
     height:30px;
     padding:5px;
     vertical-align: top;
@@ -203,15 +207,14 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 .ad-info-box, .ad-image-box {
     display: inline-block;
     vertical-align: top;
-}
-
-.ad-image-box {
-    width: 220px;
+    min-width: 290px;
+    width:40%;
 }
 
 .ad-date {
     display:inline-block;
-    width:150px;
+    min-width:100px;
+    width:75%;
     padding:5px;
     background-color: #c5e0b4;
     border: 1px dotted #507e32;
@@ -225,9 +228,9 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 
 .ad-edit {
     display: inline-block;
-    width: 150px;
     vertical-align: top;
-    margin-left: 10px;
+    min-width:300px;
+    width: 35%;
 }
 
 .ad-edit .button {
@@ -237,7 +240,8 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 
 .ad-status{
     display:inline-block;
-    width:150px;
+    min-width:100px;
+    width:75%;
     padding:5px;
     background-color: #c5e0b4;
     border: 1px dotted #507e32;
@@ -246,9 +250,16 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 
 .ad-info-edit {
     display:inline-block;
-    width:300px;
+    width:290px;
     padding:5px;
     background-color: #eff8e8;
     border: 1px dotted #507e32;
     margin-bottom: 10px;
+}
+
+.ad-main {
+    min-width:300px;
+    width: 60%;
+    display: inline-block;
+    margin-right: 10px;
 }

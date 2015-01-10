@@ -217,3 +217,29 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
     border: 1px dotted #507e32;
     margin-bottom: 10px;
 }
+
+.ad-info-entire {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ad-edit {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.ad-edit .button {
+    display: block;
+    text-align:center;
+}
+
+.ad-status{
+    display:inline-block;
+    width:150px;
+    padding:5px;
+    background-color: #c5e0b4;
+    border: 1px dotted #507e32;
+    margin-bottom: 10px;
+}

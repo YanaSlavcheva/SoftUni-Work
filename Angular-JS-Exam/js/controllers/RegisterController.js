@@ -12,12 +12,11 @@ app.controller('RegisterController',
                 notifyService.showError("Cannot load towns", err);
             }
         );
-        // TODO: load the towns in $scope (for the towns drop-down list)
 
         $scope.register = function(userData) {
             authService.register(userData,
                 function success() {
-                    notifyService.showInfo("Registration successful");
+                    notifyService.showInfo("Registration successful. Please Login!");
                     $location.path("/login");
                 },
                 function error(err) {

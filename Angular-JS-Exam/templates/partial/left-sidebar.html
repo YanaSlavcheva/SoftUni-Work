@@ -3,8 +3,8 @@
     <h2>Navigation</h2>
     <ul class="sidebar-menu">
         <li><a href="#/">Home</a></li>
-        <li><a href="#/login">Login</a></li>
-        <li><a href="#/register">Register</a></li>
+        <!--<li><a href="#/login">Login</a></li>-->
+        <!--<li><a href="#/register">Register</a></li>-->
     </ul>
 </div>
 
@@ -27,6 +27,17 @@
     </ul>
 </div>
 
+<div ng-if="location.path() == '#/user/ads'" class="box">
+    <h2>Ads</h2>
+    <ul class="sidebar-menu">
+        <li><a href="#/admin/ads" class="special">All</a></li>
+        <li><a href="#/admin/ads/published">Published</a></li>
+        <li><a href="#/admin/ads/waiting">Waiting Approval</a></li>
+        <li><a href="#/admin/ads/inactive">Inactive</a></li>
+        <li><a href="#/admin/ads/rejected">Rejected</a></li>
+    </ul>
+</div>
+
 <!-- Navigation box for logged in admins -->
 <div ng-if="authService.isAdmin()" class="box">
     <h2>Navigation</h2>
@@ -37,3 +48,19 @@
         <li><a href="#/admin/towns">Towns</a></li>
     </ul>
 </div>
+
+<div ng-if="authService.isAdmin()" class="box">
+    <h2>Ads</h2>
+    <ul class="sidebar-menu">
+        <li><a href="#/admin/ads" class="special">All</a></li>
+        <li><a href="#/admin/ads/published">Published</a></li>
+        <li><a href="#/admin/ads/waiting">Waiting Approval</a></li>
+        <li><a href="#/admin/ads/inactive">Inactive</a></li>
+        <li><a href="#/admin/ads/rejected">Rejected</a></li>
+    </ul>
+</div>
+
+
+
+
+

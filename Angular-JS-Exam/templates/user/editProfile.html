@@ -15,11 +15,22 @@
                     </select>
                 </div>
             </div>
-
-
             <a class="button" ng-click="editProfile(userData)">Edit</a>
             <a class="button" ng-click="cancel()">Cancel</a>
+        </form>
+    </div>
+</div>
 
+<div class="box">
+    <h1>Change password</h1>
+    <div>
+        <form>
+            <div><strong class="ad-info-define"><label for="oldPassword">Old: </label></strong><input type="password" class="ad-info-edit" id="oldPassword" ng-model="password.oldPassword" required></div>
+            <div><strong class="ad-info-define"><label for="password">New: </label></strong><input type="password" class="ad-info-edit" id="password" ng-model="password.newPassword" required></div>
+            <div><strong class="ad-info-define"><label for="confirmPassword">Confirm: </label></strong><input type="password" class="ad-info-edit" id="confirmPassword" ng-model="password.confirmPassword" required></div>
+
+            <a class="button" ng-click="changePassword(password)">Change password</a>
+            <a class="button" ng-click="cancel()">Cancel</a>
         </form>
     </div>
 </div>

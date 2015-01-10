@@ -8,11 +8,11 @@ app.controller('AdEditController',
         userService.getAdInfo(
             $scope.id,
             function success(data) {
-                notifyService.showInfo("Are you sure you want to delete this Ad?");
+                notifyService.showInfo("Ad info loaded successfully");
                 $scope.ad = data;
             },
             function error(err) {
-                notifyService.showError("You cannot delete this ad", err);
+                notifyService.showError("Cannot load add info", err);
             }
         );
 

@@ -22,6 +22,11 @@ app.config(function ($routeProvider) {
         controller: 'RegisterController'
     });
 
+    $routeProvider.when('/user/edit', {
+        templateUrl: 'templates/editProfile.html',
+        controller: 'ProfileEditController'
+    });
+
     $routeProvider.when('/user/ads', {
         templateUrl: 'templates/user/myAds.html',
         controller: 'UserMyAdsController'
@@ -32,9 +37,14 @@ app.config(function ($routeProvider) {
         controller: 'UserPublishNewAdController'
     });
 
-    $routeProvider.when('/user/edit/:id', {
+    $routeProvider.when('/user/ads/edit/:id', {
         templateUrl: 'templates/user/editAd.html',
         controller: 'AdEditController'
+    });
+
+    $routeProvider.when('/user/ads/delete/:id', {
+        templateUrl: 'templates/user/deleteAd.html',
+        controller: 'AdDeleteController'
     });
 
     $routeProvider.when('/admin/users', {

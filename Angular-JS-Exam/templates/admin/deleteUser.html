@@ -1,0 +1,17 @@
+<div class="box">
+    <h1>Confirm deleting user</h1>
+    <div class="ad-admin-entire">
+        <div class="ad-info-box">
+            <div><strong class="ad-info-define">Username:</strong> <span class="ad-info">{{user.username}}</span></div>
+            <div><strong class="ad-info-define">Name:</strong> <span class="ad-info">{{user.name}}</span></div>
+            <div><strong class="ad-info-define">Email:</strong> <span class="ad-info">{{user.email}}</span></div>
+            <div><strong class="ad-info-define">Phone:</strong> <span class="ad-info">{{user.phoneNumber}}</span></div>
+            <div><strong class="ad-info-define">Town:</strong> <span class="ad-info">{{user.townName}}</span></div>
+        </div>
+    </div>
+    <div class="ad-admin-edit">
+        <a class="button" ng-click="deleteUser(user.username)">Delete</a>
+        <a class="button" ng-click="cancel()">Cancel</a>
+    </div>
+    <br/>
+</div>

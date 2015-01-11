@@ -52,6 +52,11 @@ app.config(function ($routeProvider) {
         controller: 'AdminController'
     });
 
+    $routeProvider.when('/admin/users/delete/:username', {
+        templateUrl: 'templates/admin/deleteUser.html',
+        controller: 'AdminController'
+    });
+
     $routeProvider.when('/admin/ads/edit/:id', {
         templateUrl: 'templates/admin/editAd.html',
         controller: 'AdminAdEditController'
@@ -62,6 +67,16 @@ app.config(function ($routeProvider) {
         controller: 'AdminAdDeleteController'
     });
 
+    $routeProvider.when('/admin/categories', {
+        templateUrl: 'templates/admin/categories.html',
+        controller: 'AdminController'
+    });
+
+    $routeProvider.when('/admin/categories/create', {
+        templateUrl: 'templates/admin/createCategory.html',
+        controller: 'AdminController'
+    });
+
     $routeProvider.otherwise(
         { redirectTo: '/' }
     );
@@ -69,7 +84,7 @@ app.config(function ($routeProvider) {
 
 app.run(function ($rootScope, $location, authService) {
     $rootScope.$on('$locationChangeStart', function (event) {
-        if ($location.path().indexOf("/user/") != -1 && !authService.isLoggedIn()) {
+        if (($location.path().indexOf("/user/") != -1 && !authService.isLoggedIn()) || ($location.path().indexOf("/admin/") != -1 && !authService.isLoggedIn())) {
             // Authorization check: anonymous site visitors cannot access user routes
             $location.path("/");
         }

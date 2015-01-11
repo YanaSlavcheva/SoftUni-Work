@@ -1,0 +1,29 @@
+<pagination total-items="categories.numItems" ng-model="categoriesParams.startPage"
+            items-per-page="categoriesParams.pageSize" ng-change="reloadCategories()"
+            max-size="12" boundary-links="true">
+</pagination>
+
+<table class="users-table">
+    <thead>
+    <tr class="table-row">
+        <th>Id</th>
+        <th>Category</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody ng-repeat="category in categories.categories">
+    <tr class="table-row">
+        <td>{{category.id}}</td>
+        <td>{{category.username}}</td>
+        <td><a href="#/admin/ads/edit/{{category.id}}">Edit</a>
+
+            <!--<a href="#/admin/users/delete/{{user.username}}">Delete</a></td>-->
+            <a ng-click="deleteUser(category.id)">Delete</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<div ng-if="categories.categories.length==0" class="box no-data">
+    No categories found.
+</div>
+

@@ -23,7 +23,8 @@
             <td>{{user.phonenumber}}</td>
             <td><a href="#/admin/ads/edit/{{ad.id}}">Edit</a>
 
-                <a href="#/admin/ads/delete/{{ad.id}}">Delete</a></td>
+                <!--<a href="#/admin/users/delete/{{user.username}}">Delete</a></td>-->
+                <a ng-click="deleteUser(user.username)">Delete</a></td>
         </tr>
     </tbody>
 </table>

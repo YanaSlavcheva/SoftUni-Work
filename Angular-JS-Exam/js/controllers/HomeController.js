@@ -79,7 +79,6 @@ app.controller('HomeController',
             );
         };
 
-
         $scope.$on("categorySelectionChanged", function(event, selectedCategoryId) {
             $scope.adsParams.categoryId = selectedCategoryId;
             $scope.adsParams.startPage = 1;

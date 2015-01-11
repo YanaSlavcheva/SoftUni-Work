@@ -13,6 +13,24 @@ app.factory('adminService',
                 $http(request).success(success).error(error);
             },
 
+            getUserInfo: function (username, success, error) {
+                var request = {
+                    method: 'GET',
+                    url: baseServiceUrl + '/api/admin/users/' + username,
+                    headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
+            },
+
+            deleteUser: function (username, success, error) {
+                var request = {
+                    method: 'DELETE',
+                    url: baseServiceUrl + '/api/admin/user/' + username,
+                    headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
+            },
+
             getAdminAds: function (params, success) {
                 var request = {
                     method: 'GET',
@@ -65,6 +83,16 @@ app.factory('adminService',
                     method: 'DELETE',
                     url: baseServiceUrl + '/api/admin/ads/' + id,
                     headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
+            },
+
+            getCategories: function (params, success, error) {
+                var request = {
+                    method: 'GET',
+                    url: baseServiceUrl + '/api/admin/categories',
+                    headers: authService.getAuthHeaders(),
+                    params: params
                 };
                 $http(request).success(success).error(error);
             }

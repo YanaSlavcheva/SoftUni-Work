@@ -2,7 +2,8 @@
 
 // The HomeController holds the presentation logic for the home screen
 app.controller('HomeController',
-    function ($scope, adsService, notifyService, pageSize) {
+    function ($scope, adsService, notifyService, pageSize, authService, adminService) {
+//        load ads for users
         adsService.getAds(
             null,
             function success(data) {
@@ -29,6 +30,29 @@ app.controller('HomeController',
                 }
             );
         };
+
+//        load ads for admin
+        adminService.getAdminAds(
+            null,
+            function success(data) {
+                $scope.adminAds = data;
+            }
+        );
+
+        $scope.adsParams = {
+            'startPage' : 1,
+            'pageSize' : pageSize
+        };
+
+        $scope.reloadAdminAds = function() {
+            adminService.getAdminAds(
+                null,
+                function success(data) {
+                    $scope.adminAds = data;
+                }
+            );
+        };
+
 
         $scope.$on("categorySelectionChanged", function(event, selectedCategoryId) {
             $scope.adsParams.categoryId = selectedCategoryId;

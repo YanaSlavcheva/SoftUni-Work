@@ -3,7 +3,8 @@
             max-size="12" boundary-links="true">
 </pagination>
 
-<ul class="ads">
+<!--if the user is normal-->
+<ul class="ads" ng-if="!authService.isAdmin()">
     <li ng-repeat="ad in ads.ads" class="box">
         <h1>{{ad.title}}</h1>
         <div class="ad-image-box">
@@ -22,6 +23,34 @@
     </li>
 </ul>
 
-<div ng-if="ads.ads.length==0" class="box no-data">
+<div ng-if="ads.ads.length==0 && !authService.isAdmin()" class="box no-data">
+    No ads found.
+</div>
+
+<!--if the user is admin-->
+<ul class="ads" ng-if="authService.isAdmin()">
+    <li ng-repeat="ad in adminAds.ads" class="box">
+        <h1>{{ad.title}}</h1>
+        <div class="ad-image-box">
+            <div><strong class="ad-info-define">Date:</strong> <span class="ad-date">{{ad.date | date: 'dd-MM-yyyy'}}</span></div>
+            <div ng-if='ad.imageDataUrl'>
+                <strong class="ad-info-define">Image:</strong>
+                <img class="ad-image" ng-src="{{ad.imageDataUrl}}"/>
+            </div>
+            <div><strong class="ad-info-define">Status:</strong> <span class="ad-info">{{ad.status}}</span></div>
+        </div>
+        <div class="ad-info-box">
+            <div><strong class="ad-info-define">Text:</strong> <span class="ad-info">{{ad.text}}</span></div>
+            <div><strong class="ad-info-define">Username:</strong> <span class="ad-info">{{ad.ownerUsername}}</span></div>
+            <div><strong class="ad-info-define">Name:</strong> <span class="ad-info">{{ad.ownerName}}</span></div>
+            <div><strong class="ad-info-define">Email:</strong> <span class="ad-info">{{ad.ownerEmail}}</span></div>
+            <div><strong class="ad-info-define">Phone:</strong> <span class="ad-info">{{ad.ownerPhone}}</span></div>
+            <div><strong class="ad-info-define">Category:</strong> <span class="ad-info">{{ad.categoryName}}</span></div>
+            <div><strong class="ad-info-define">Town:</strong> <span class="ad-info">{{ad.townName}}</span></div>
+        </div>
+    </li>
+</ul>
+
+<div ng-if="ads.ads.length==0 && authService.isAdmin()" class="box no-data">
     No ads found.
 </div>

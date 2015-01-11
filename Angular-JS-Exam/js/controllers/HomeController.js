@@ -4,6 +4,7 @@
 app.controller('HomeController',
     function ($scope, adsService, notifyService, pageSize, authService, adminService) {
 //        load ads for users
+        $scope.pageTitle = "Home";
         adsService.getAds(
             null,
             function success(data) {

@@ -1,37 +1,35 @@
 <div class="box">
-    <h2>Publish New Ad</h2>
-    <p>
-        <label for="title">Title:</label>
-        <input type="text" id="title" ng-model="adData.title" required />
-    </p>
-    <p>
-        <label for="text">Text:</label>
-        <input type="text" id="text" ng-model="adData.text" required />
-    </p>
-    <p>
-        <label for="category">Category:</label>
-        <select id="category" ng-model="adData.categoryId">
-            <option value="null">(None)</option>
-            <option ng-repeat="c in categories" value="{{c.id}}">{{c.name}}</option>
-        </select>
-    </p>
-    <p>
-        <label for="town">Town:</label>
-        <select id="town" ng-model="adData.townId">
-            <option value="null">(None)</option>
-            <option ng-repeat="town in towns"
-                    value="{{town.id}}">{{town.name}}</option>
-        </select>
-    </p>
-    <p>
-        <label for="image">Image:</label>
-        <input type="file" id="image"
-               onchange="angular.element(this).scope().fileSelected(this)" />
-    <div class="image-box">
-        <p>Image Preview</p>
-    </div>
-    </p>
-    <p>
+    <h1>Publish New Ad</h1>
+        <div><strong class="ad-info-define"><label for="title">Title:</label></strong><input type="text" class="ad-info-edit" id="title" ng-model="adData.title" required /></div>
+        <div><strong class="ad-info-define"><label for="text">Text:</label></strong><input type="text" class="ad-info-edit" id="text" ng-model="adData.text" required /></div>
+        <div>
+            <strong class="ad-info-define"><label for="category">Category:</label></strong>
+            <select class="ad-info-edit" id="category" ng-model="adData.categoryId">
+                <option value="" style="display: none">(None)</option>
+                <option ng-repeat="c in categories" value="{{c.id}}">{{c.name}}</option>
+            </select>
+        </div>
+
+        <div >
+            <strong class="ad-info-define"><label for="town">Town:</label></strong>
+            <select class="ad-info-edit" id="town" ng-model="adData.townId">
+                <option value="" style="display: none">(None)</option>
+                <option ng-repeat="town in towns"
+                        value="{{town.id}}">{{town.name}}</option>
+            </select>
+        </div>
+
+        <div>
+            <strong class="ad-info-define"><label for="image">Image:</label></strong>
+            <div class="ad-info-edit">
+                <input type="file" id="image" onchange="angular.element(this).scope().fileSelected(this)" />
+            </div>
+            <br/>
+            <div class="image-box">
+                <p>Image Preview</p>
+            </div>
+        </div>
+
         <a ng-click="publishAd(adData)" class="button">Publish</a>
         <a href="#/user/ads" class="button">Cancel</a>
     <p>

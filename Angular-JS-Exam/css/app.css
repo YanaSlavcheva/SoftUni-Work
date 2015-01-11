@@ -185,6 +185,12 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
     margin-bottom: 10px;
 }
 
+.ad-image-edit {
+    min-width:250px;
+    width: 60%
+    margin-bottom: 10px;
+}
+
 .ad-info {
     display:inline-block;
     min-width:90px;

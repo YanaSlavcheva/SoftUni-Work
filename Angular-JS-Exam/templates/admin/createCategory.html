@@ -1,10 +1,9 @@
 <div class="box">
     <div class="ad-info-box">
         <h1>Create category</h1>
-        <div><strong class="ad-info-define"><label for="username">Category: </label></strong><input type="text" class="ad-info-edit" id="username" ng-model="userData.username" required /></div>
-        <div><strong class="ad-info-define"><label for="password">Password: </label></strong><input type="password" class="ad-info-edit" id="password" ng-model="userData.password" required /></div>
+        <div><strong class="ad-info-define"><label for="category">Category: </label></strong><input type="text" class="ad-info-edit" id="category" ng-model="categoryData.name" required /></div>
 
-        <a ng-click="login(userData)" class="button">Login</a>
-        <a href="#/register" class="link">Register</a>
+        <a ng-click="createCategory(categoryData)" class="button">Create</a>
+        <a href="#/admin/categories" class="button">Cancel</a>
     </div>
 </div>

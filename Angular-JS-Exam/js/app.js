@@ -74,7 +74,7 @@ app.config(function ($routeProvider) {
 
     $routeProvider.when('/admin/categories/create', {
         templateUrl: 'templates/admin/createCategory.html',
-        controller: 'AdminController'
+        controller: 'AdminNewCategoryController'
     });
 
     $routeProvider.otherwise(

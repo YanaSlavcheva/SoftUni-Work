@@ -95,6 +95,16 @@ app.factory('adminService',
                     params: params
                 };
                 $http(request).success(success).error(error);
+            },
+
+            createCategory: function (categoryData, success, error) {
+                var request = {
+                    method: 'POST',
+                    url: baseServiceUrl + '/api/admin/categories',
+                    headers: authService.getAuthHeaders(),
+                    data: categoryData
+                };
+                $http(request).success(success).error(error);
             }
         }
     }

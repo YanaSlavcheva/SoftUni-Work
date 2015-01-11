@@ -3,15 +3,34 @@
             max-size="12" boundary-links="true">
 </pagination>
 
-<ul class="users">
-    <li ng-repeat="user in users.users" class="box">
-        <div><strong>Username</strong> {{user.username}}</div>
-        <div><strong>Name</strong> {{user.name}}</div>
-        <div><strong>Email</strong> {{user.email}}</div>
-        <div><strong>Phone</strong> {{user.phonenumber}}</div>
-    </li>
-</ul>
+
+
+<table class="users-table">
+    <thead>
+        <tr class="table-row">
+            <th>Username</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody ng-repeat="user in users.users">
+        <tr class="table-row">
+            <td>{{user.username}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phonenumber}}</td>
+            <td><a href="#/admin/ads/edit/{{ad.id}}">Edit</a>
+
+                <a href="#/admin/ads/delete/{{ad.id}}">Delete</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 <div ng-if="users.users.length==0" class="box no-data">
     No users found.
 </div>
+

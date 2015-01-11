@@ -1,16 +1,11 @@
 <div class="box">
-    <h2>Login</h2>
-    <p>
-        <label for="username">Username:</label>
-        <input type="text" id="username" ng-model="userData.username" required />
-    </p>
-    <p>
-        <label for="password">Password:</label>
-        <input type="password" id="password" ng-model="userData.password" required />
-    </p>
-    <p>
+    <div class="ad-info-box">
+        <h1>Login</h1>
+        <div><strong class="ad-info-define"><label for="username">Username: </label></strong><input type="text" class="ad-info-edit" id="username" ng-model="userData.username" required /></div>
+        <div><strong class="ad-info-define"><label for="password">Password: </label></strong><input type="password" class="ad-info-edit" id="password" ng-model="userData.password" required /></div>
+
         <a ng-click="login(userData)" class="button">Login</a>
-        <a href="#/register" class="link">Register here</a>
-    <p>
+        <a href="#/register" class="link">Register</a>
+    </div>
 </div>
 

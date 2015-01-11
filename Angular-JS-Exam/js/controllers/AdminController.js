@@ -82,6 +82,19 @@ app.controller('AdminController',
             );
         };
 
+        $scope.deleteCategory = function(id) {
+            adminService.deleteCategory(
+                id,
+                function success(data) {
+                    notifyService.showInfo('Successfully deleted the category');
+                    $location.path('/admin/categories');
+                },
+                function error(err) {
+                    notifyService.showError("Cannot delete the category", err);
+                }
+            );
+        };
+
         $scope.cancel = function() {
             $location.path('/admin/users');
         };

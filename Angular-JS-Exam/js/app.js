@@ -77,6 +77,16 @@ app.config(function ($routeProvider) {
         controller: 'AdminNewCategoryController'
     });
 
+    $routeProvider.when('/admin/categories/edit/:id', {
+        templateUrl: 'templates/admin/editCategory.html',
+        controller: 'AdminEditCategoryController'
+    });
+
+    $routeProvider.when('/admin/categories/delete/:id', {
+        templateUrl: 'templates/admin/deleteCategory.html',
+        controller: 'AdminDeleteCategoryController'
+    });
+
     $routeProvider.otherwise(
         { redirectTo: '/' }
     );

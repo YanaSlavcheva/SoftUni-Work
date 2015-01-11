@@ -39,7 +39,7 @@ app.controller('HomeController',
             }
         );
 
-        $scope.adsParams = {
+        $scope.adminAdsParams = {
             'startPage' : 1,
             'pageSize' : pageSize
         };
@@ -49,6 +49,32 @@ app.controller('HomeController',
                 null,
                 function success(data) {
                     $scope.adminAds = data;
+                }
+            );
+        };
+
+        $scope.approveAd = function(id) {
+            adminService.approveAd(
+                id,
+                function success(data) {
+                    notifyService.showInfo("Successfully approved the ad");
+                    $scope.reloadAdminAds();
+                },
+                function error(err) {
+                    notifyService.showError("Cannot approve the ad", err);
+                }
+            );
+        };
+
+        $scope.rejectAd = function(id) {
+            adminService.rejectAd(
+                id,
+                function success(data) {
+                    notifyService.showInfo("Successfully rejected the ad");
+                    $scope.reloadAdminAds();
+                },
+                function error(err) {
+                    notifyService.showError("Cannot reject the ad", err);
                 }
             );
         };

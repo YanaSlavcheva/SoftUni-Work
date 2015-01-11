@@ -1,9 +1,9 @@
-<pagination total-items="ads.numItems" ng-model="adsParams.startPage"
+<!--if the user is normal-->
+<pagination ng-if="!authService.isAdmin()" total-items="ads.numItems" ng-model="adsParams.startPage"
             items-per-page="adsParams.pageSize" ng-change="reloadAds()"
             max-size="12" boundary-links="true">
 </pagination>
 
-<!--if the user is normal-->
 <ul class="ads" ng-if="!authService.isAdmin()">
     <li ng-repeat="ad in ads.ads" class="box">
         <h1>{{ad.title}}</h1>
@@ -28,6 +28,11 @@
 </div>
 
 <!--if the user is admin-->
+<pagination ng-if="authService.isAdmin()" total-items="adminAds.numItems" ng-model="adminAdsParams.startPage"
+items-per-page="adminAdsParams.pageSize" ng-change="reloadAdminAds()"
+max-size="12" boundary-links="true">
+</pagination>
+
 <ul class="ads" ng-if="authService.isAdmin()">
     <li ng-repeat="ad in adminAds.ads" class="box">
         <h1>{{ad.title}}</h1>
@@ -56,7 +61,6 @@
             <a href="#/admin/ads/edit/{{ad.id}}" class="button">Edit</a>
             <a href="#/admin/ads/delete/{{ad.id}}" class="button">Delete</a>
         </div>
-
     </li>
 </ul>
 

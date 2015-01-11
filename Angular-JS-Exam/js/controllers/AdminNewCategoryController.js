@@ -15,5 +15,9 @@ app.controller('AdminNewCategoryController',
                 }
             );
         };
+
+        $scope.cancel = function() {
+            $location.path('/admin/categories');
+        };
     }
 );

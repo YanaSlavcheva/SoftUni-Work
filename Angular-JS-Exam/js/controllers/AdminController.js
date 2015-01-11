@@ -95,6 +95,33 @@ app.controller('AdminController',
             );
         };
 
+        adminService.getTowns(
+            null,
+            function success(data) {
+                $scope.towns = data;
+            },
+            function error(err) {
+                notifyService.showError("Cannot load towns", err);
+            }
+        );
+
+        $scope.townsParams = {
+            'startPage' : 1,
+            'pageSize' : pageSize
+        };
+
+        $scope.reloadTowns = function() {
+            adminService.getTowns(
+                $scope.townsParams,
+                function success(data) {
+                    $scope.towns = data;
+                },
+                function error(err) {
+                    notifyService.showError("Cannot load towns", err);
+                }
+            );
+        };
+
         $scope.cancel = function() {
             $location.path('/admin/users');
         };

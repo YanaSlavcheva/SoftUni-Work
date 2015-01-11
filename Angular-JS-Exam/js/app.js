@@ -87,6 +87,11 @@ app.config(function ($routeProvider) {
         controller: 'AdminDeleteCategoryController'
     });
 
+    $routeProvider.when('/admin/towns', {
+        templateUrl: 'templates/admin/towns.html',
+        controller: 'AdminController'
+    });
+
     $routeProvider.otherwise(
         { redirectTo: '/' }
     );

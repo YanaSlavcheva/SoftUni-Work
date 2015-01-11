@@ -1,0 +1,30 @@
+<pagination total-items="towns.numItems" ng-model="townsParams.startPage"
+            items-per-page="townsParams.pageSize" ng-change="reloadTowns()"
+            max-size="12" boundary-links="true">
+</pagination>
+
+<table class="users-table">
+    <thead>
+    <tr class="table-row">
+        <th>Id</th>
+        <th>Town</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody ng-repeat="town in towns.towns">
+    <tr class="table-row">
+        <td>{{town.id}}</td>
+        <td>{{town.username}}</td>
+        <td><a href="#/admin/towns/edit/{{town.id}}">Edit</a>
+
+            <!--<a href="#/admin/users/delete/{{user.username}}">Delete</a></td>-->
+            <a ng-click="deleteTown(town.id)">Delete</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<a href="#/admin/categories/create" class="button">Create new town</a>
+
+<div ng-if="categories.categories.length==0" class="box no-data">
+    No towns found.
+</div>

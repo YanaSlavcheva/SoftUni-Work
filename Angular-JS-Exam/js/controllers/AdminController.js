@@ -1,7 +1,7 @@
 'use strict';
 
 app.controller('AdminController',
-    function ($scope, $location, adminService, notifyService, pageSize, $routeParams) {
+    function ($scope, $location, adminService, notifyService, pageSize, $routeParams, $route) {
 //        $scope.username = $routeParams.username;
 
         adminService.getUsers(
@@ -48,6 +48,7 @@ app.controller('AdminController',
                 function success(data) {
                     notifyService.showInfo('Successfully deleted the user');
                     $location.path('/admin/users');
+                    $route.reload();
                 },
                 function error(err) {
                     notifyService.showError("Cannot delete the user", err);
@@ -88,6 +89,7 @@ app.controller('AdminController',
                 function success(data) {
                     notifyService.showInfo('Successfully deleted the category');
                     $location.path('/admin/categories');
+                    $route.reload();
                 },
                 function error(err) {
                     notifyService.showError("Cannot delete the category", err);
@@ -118,6 +120,20 @@ app.controller('AdminController',
                 },
                 function error(err) {
                     notifyService.showError("Cannot load towns", err);
+                }
+            );
+        };
+
+        $scope.deleteTown = function(id) {
+            adminService.deleteTown(
+                id,
+                function success(data) {
+                    notifyService.showInfo('Successfully deleted the town');
+                    $location.path('/admin/towns');
+                    $route.reload();
+                },
+                function error(err) {
+                    notifyService.showError("Cannot delete the town", err);
                 }
             );
         };

@@ -144,6 +144,15 @@ app.factory('adminService',
                     data: townData
                 };
                 $http(request).success(success).error(error);
+            },
+
+            deleteTown: function (id, success, error) {
+                var request = {
+                    method: 'DELETE',
+                    url: baseServiceUrl + '/api/admin/towns/' + id,
+                    headers: authService.getAuthHeaders()
+                };
+                $http(request).success(success).error(error);
             }
         }
     }

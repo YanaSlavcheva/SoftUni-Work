@@ -250,7 +250,7 @@ ul.sidebar-menu li a, ul.sidebar-menu li a:focus {
 
 .ad-info-edit {
     display:inline-block;
-    min-width:300px;
+    min-width:250px;
     width: 60%
     padding:5px;
     background-color: #eff8e8;

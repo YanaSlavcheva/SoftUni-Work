@@ -9,8 +9,7 @@
         {
             var db = new SoftUniEntities();
 
-            var today = new DateTime();
-            today = DateTime.Now;
+            var today = DateTime.Now;
 
             var testEmployee = new Employee
             {
@@ -23,11 +22,10 @@
                 Salary = 1000
             };
 
-            ManageEmployees.InsertEmployee(testEmployee);
-            ManageEmployees.DeleteEmployee("Test", "Test", "Test");
-            ManageEmployees.ModifyEmployee(298, "FirstName", "Pesho");
-            ManageEmployees.PrintEmployee(298);
-            
+            ManageEmployeesDao.InsertEmployee(testEmployee);
+            ManageEmployeesDao.DeleteEmployee("Test", "Test", "Test");
+            ManageEmployeesDao.ModifyEmployee(298, "FirstName", "Pesho");
+            ManageEmployeesDao.PrintEmployee(298);    
         }
     }
 }

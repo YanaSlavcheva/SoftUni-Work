@@ -59,8 +59,7 @@
     <Compile Include="Employee.cs">
       <DependentUpon>SoftUniContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="ManageEmployees.cs" />
-    <Compile Include="Interfaces\IEmployeeDAO.cs" />
+    <Compile Include="ManageEmployeesDao.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="Project.cs">
       <DependentUpon>SoftUniContext.tt</DependentUpon>

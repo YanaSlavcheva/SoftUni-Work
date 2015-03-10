@@ -1,1 +1,3 @@
-StudentSystem.Model - описваме таблиците на базата / данните
+StudentSystem.Model - описваме таблиците на базата - какво съдържат
+StudentSystem.Data - данните
+StudentSystem.ConsoleClient - user access to the data

@@ -4,7 +4,6 @@
 
     public class Homework
     {
-
         //Homework: id, content, content-type (e.g. application/pdf or application/zip), date and time
 
         public Homework()
@@ -20,7 +19,7 @@
 
         public DateTime UploadDateTime { get; set; }
 
-        public Guid CourseId { get; set; }
+        public int CourseId { get; set; }
 
         public virtual Course Course { get; set; }
 

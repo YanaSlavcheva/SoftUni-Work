@@ -25,6 +25,7 @@
 
             var savedStudent = db.Students.First();
             Console.WriteLine(savedStudent.Id + " " + savedStudent.FirstName + " " + savedStudent.LastName);
+            Console.ReadKey();
         }
     }
 }

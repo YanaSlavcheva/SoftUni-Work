@@ -15,13 +15,12 @@
 
         public Course()
         {
-            this.Id = Guid.NewGuid();
             this.students = new HashSet<Student>();
             this.homeworks = new HashSet<Homework>();
             this.resources = new HashSet<Resource>();
         }
 
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 

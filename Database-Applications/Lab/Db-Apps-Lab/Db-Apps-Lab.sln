@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EF-Mappings", "01.EF-Map
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Export-Rivers-as-JSON", "02.Export-Rivers-as-JSON\02.Export-Rivers-as-JSON.csproj", "{9318A5E7-EBF8-414E-B381-DFE957AB1DFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Export-Monasteries-as-XML", "03.Export-Monasteries-as-XML\03.Export-Monasteries-as-XML.csproj", "{53265487-3B80-4B19-9841-7A048BCAF89F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9318A5E7-EBF8-414E-B381-DFE957AB1DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9318A5E7-EBF8-414E-B381-DFE957AB1DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9318A5E7-EBF8-414E-B381-DFE957AB1DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53265487-3B80-4B19-9841-7A048BCAF89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53265487-3B80-4B19-9841-7A048BCAF89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53265487-3B80-4B19-9841-7A048BCAF89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53265487-3B80-4B19-9841-7A048BCAF89F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

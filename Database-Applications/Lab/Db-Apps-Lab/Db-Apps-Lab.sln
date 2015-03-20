@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Export-Monasteries-as-XM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Import-Rivers-From-XML", "04.Import-Rivers-From-XML\04.Import-Rivers-From-XML.csproj", "{462F9045-A326-4A9A-80FE-ACCDBB5BA854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Mountains-Code-First", "05.Mountains-Code-First\05.Mountains-Code-First.csproj", "{19E65F8E-C78E-4221-8AA5-96F85CE6B2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{462F9045-A326-4A9A-80FE-ACCDBB5BA854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462F9045-A326-4A9A-80FE-ACCDBB5BA854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462F9045-A326-4A9A-80FE-ACCDBB5BA854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E65F8E-C78E-4221-8AA5-96F85CE6B2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E65F8E-C78E-4221-8AA5-96F85CE6B2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E65F8E-C78E-4221-8AA5-96F85CE6B2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E65F8E-C78E-4221-8AA5-96F85CE6B2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

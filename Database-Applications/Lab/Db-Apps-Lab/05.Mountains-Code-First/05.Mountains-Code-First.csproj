@@ -54,6 +54,7 @@
     <Compile Include="Mountain.cs" />
     <Compile Include="MountainsCodeFirst.cs" />
     <Compile Include="MountainsContext.cs" />
+    <Compile Include="MountainsMigrationStrategy.cs" />
     <Compile Include="Peak.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

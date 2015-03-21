@@ -9,16 +9,24 @@
         public static void Main(string[] args)
         {
             var db = new MountainsContext();
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<MountainsContext>());
+            Database.SetInitializer(new MountainsMigrationStrategy());
 
-            Country c = new Country(){Code = "AB", Name = "Ababab"};
-            Mountain m = new Mountain(){Name = "Mountain"};
-            m.Peaks.Add(new Peak(){Name = "PeakOne"});
-            m.Peaks.Add(new Peak(){Name = "PeakTwo"});
-            c.Mountains.Add(m);
+            var countriesQuery =
+                db.Countries.Select(
+                    c => new { CountryName = c.Name, Mountains = c.Mountains.Select(m => new { m.Name, m.Peaks }) });
 
-            db.Countries.Add(c);
-            db.SaveChanges();
+            foreach (var country in countriesQuery)
+            {
+                Console.WriteLine("Country: " + country.CountryName);
+                foreach (var mountain in country.Mountains)
+                {
+                    Console.WriteLine("\tMountain: " + mountain.Name);
+                    foreach (var peak in mountain.Peaks)
+                    {
+                        Console.WriteLine("\t{0} => {1}", peak.Name, peak.Elevation);
+                    }
+                }
+            }
         }
     }
 }

@@ -34,9 +34,23 @@
                            .OrderBy(c => c.CountryName)
                            .Select(c => c.CountryName)
                    }).ToList();
-            var filePathName = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Rivers.json";
+            var filePathNameJson = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Rivers.json";
 
-            JsonExporter.Export(filePathName, riversQuery);
+            JsonExporter.Export(filePathNameJson, riversQuery);
+
+            // Export Monasteries by Country as XML
+            var countriesWMonasteriesQuery = context.Countries
+                .OrderBy(c => c.CountryName)
+                .Where(c => c.Monasteries.Any())
+                .Select(c => new CountriesDto()
+                                                                               {
+                                                                                   CountryName = c.CountryName,
+                                                                                   Monasteries = c.Monasteries.Select(m => m.Name)
+                                                                               }).ToList();
+
+            var filePathNameXml = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Monasteries.xml";
+
+            XmlExporter.Export(filePathNameXml, countriesWMonasteriesQuery);
         }
     }
 }

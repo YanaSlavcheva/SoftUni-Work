@@ -1,10 +1,7 @@
 ﻿
 namespace Geography.DataTransferObjects
 {
-    using System;
     using System.Collections.Generic;
-
-    using Geography.Data;
 
     public class RiversDto
     {

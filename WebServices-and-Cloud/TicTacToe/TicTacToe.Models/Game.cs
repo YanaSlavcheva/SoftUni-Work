@@ -7,6 +7,8 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.VisualBasic.ApplicationServices;
 
+    using TicTacToe.Web.Models;
+
     public class Game
     {
         public Game()
@@ -14,7 +16,6 @@
             this.Id = Guid.NewGuid();
             this.Board = "---------";
             this.State = GameState.WaitingForSecondPlayer;
-
         }
 
         public Guid Id { get; set; }
@@ -29,11 +30,11 @@
         public string FirstPlayerId { get; set; }
 
         [Required]
-        public virtual User FirstPlayer { get; set; }
+        public virtual TicTacToeUser FirstPlayer { get; set; }
 
         public string SecondPlayerId { get; set; }
 
-        public virtual User SecondPlayer { get; set; }
+        public virtual TicTacToeUser SecondPlayer { get; set; }
 
     }
 }

@@ -8,6 +8,7 @@
 
     using TicTacToe.Data.Repositories;
     using TicTacToe.Models;
+    using TicTacToe.Web.Models;
 
     public class TicTacToeData : ITicTacToeData
     {
@@ -21,11 +22,11 @@
             this.repositories = new Dictionary<Type, object>();
         }
 
-        public IRepository<User> Users
+        public IRepository<TicTacToeUser> Users
         {
             get
             {
-                return this.GetRepository<User>();
+                return this.GetRepository<TicTacToeUser>();
             }
         }
 

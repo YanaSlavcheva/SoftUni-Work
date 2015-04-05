@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repositories\EfRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="TicTacToeDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

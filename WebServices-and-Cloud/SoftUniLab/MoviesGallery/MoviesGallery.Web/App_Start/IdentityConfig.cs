@@ -7,6 +7,7 @@ using MoviesGallery.Web.Models;
 
 namespace MoviesGallery.Web
 {
+    using MoviesGallery.Data;
     using MoviesGallery.Models;
 
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
@@ -20,7 +21,7 @@ namespace MoviesGallery.Web
 
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context)
         {
-            var manager = new ApplicationUserManager(new UserStore<User>(context.Get<ApplicationDbContext>()));
+            var manager = new ApplicationUserManager(new UserStore<User>(context.Get<MoviesGalleryDbContext>()));
 
             // Configure validation logic for usernames
             manager.UserValidator = new UserValidator<User>(manager)

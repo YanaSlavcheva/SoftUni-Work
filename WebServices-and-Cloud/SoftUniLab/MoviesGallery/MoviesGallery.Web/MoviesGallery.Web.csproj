@@ -208,7 +208,6 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -281,6 +280,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MoviesGallery.Data\MoviesGallery.Data.csproj">
+      <Project>{a578c282-8bf2-47c5-8411-0bd207b4a055}</Project>
+      <Name>MoviesGallery.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MoviesGallery.Models\MoviesGallery.Models.csproj">
       <Project>{66c5ef9d-0dd3-4b8c-b791-a58c87ea8d4c}</Project>
       <Name>MoviesGallery.Models</Name>

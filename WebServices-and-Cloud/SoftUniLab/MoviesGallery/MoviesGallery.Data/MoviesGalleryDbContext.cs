@@ -1,6 +1,9 @@
 ﻿namespace MoviesGallery.Data
 {
+    using System;
     using System.Data.Entity;
+    using System.Data.Entity.Validation;
+    using System.Linq;
 
     using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -23,9 +26,31 @@
 
         public IDbSet<Review> Reviews { get; set; }
 
-            public static MoviesGalleryDbContext Create()
+        public static MoviesGalleryDbContext Create()
+        {
+            return new MoviesGalleryDbContext();
+        }
+
+        public override int SaveChanges()
+        {
+            try
             {
-                return new MoviesGalleryDbContext();
+                return base.SaveChanges();
             }
+
+            catch (DbEntityValidationException ex)
+            {
+                foreach (var e in ex.EntityValidationErrors)
+                {
+                    foreach (var messages in e.ValidationErrors)
+                    {
+                        var temp = messages.ErrorMessage;
+                        Console.WriteLine(messages.ErrorMessage);
+                    }
+                }
+
+                throw;
+            }
+        }
     }
 }

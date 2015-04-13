@@ -25,7 +25,7 @@
         public int Length { get; set; }
 
         [Range(1, 10)]
-        public int Ratio { get; set; }
+        public int Rating { get; set; }
 
         public string Country { get; set; }
 

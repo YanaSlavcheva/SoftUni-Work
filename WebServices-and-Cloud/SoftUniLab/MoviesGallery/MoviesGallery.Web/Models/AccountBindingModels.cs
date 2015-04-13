@@ -4,6 +4,8 @@ using Newtonsoft.Json;
 
 namespace MoviesGallery.Web.Models
 {
+    using MoviesGallery.Models;
+
     // Models used as parameters to AccountController actions.
 
     public class AddExternalLoginBindingModel
@@ -48,6 +50,9 @@ namespace MoviesGallery.Web.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public Gender Gender { get; set; }
     }
 
     public class RegisterExternalBindingModel

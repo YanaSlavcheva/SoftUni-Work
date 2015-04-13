@@ -327,10 +327,13 @@ namespace MoviesGallery.Web.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return this.BadRequest(this.ModelState);
             }
 
-            var user = new User() { UserName = model.Email, Email = model.Email };
+            var user = new User()
+                       {
+                           UserName = model.Email, Email = model.Email, Gender = model.Gender
+                       };
 
             IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 

@@ -6,14 +6,15 @@
     {
         public Review()
         {
+            this.Id = Guid.NewGuid().ToString();
             this.DateOfCreation = DateTime.Now;
         }
 
         public string Id { get; set; }
 
-        public string UserId { get; set; }
+        public DateTime DateOfCreation { get; private set; }
 
-        public DateTime DateOfCreation { get; set; }
+        public string UserId { get; set; }
 
         public virtual User User { get; set; }
 

@@ -1,5 +1,6 @@
 ﻿namespace BugTracker.RestServices.Controllers
 {
+    using System;
     using System.Data.Entity.Migrations;
     using System.Runtime.InteropServices;
     using System.Web.Http;
@@ -142,6 +143,42 @@
             {
                 Message = "Bug #" + id + " deleted."
             });
+        }
+
+        [HttpGet]
+        [Route("filter")]
+        public IHttpActionResult GetBugsByFilter(string keyword, string statuses, string author)
+        {
+            // filter?keyword=link&statuses=Open|Closed&author=nakov
+            // Check Keyword
+            if (keyword == null)
+            {
+                return this.BadRequest(); 
+            }
+
+            var bugs = this.Data.Bugs
+                .Where(x => x.Title.Contains(keyword))
+                .OrderByDescending(x => x.DateCreated)
+                .Select(BugsDataModel.DataModel);
+
+            // check statuses
+            string[] statuStrings = statuses.Split('|');
+            foreach (var statuString in statuStrings)
+            {
+                var statusAsEnum = (BugStatus) Enum.Parse( typeof(BugStatus), statuString, true );
+                var bugsStatuses = bugs.Select(x => x.Status == statusAsEnum);
+            }
+            
+            //if ()
+            //{
+                
+            //}
+
+
+            // return all filters are true
+
+
+            return this.Ok(bugs);
         }
     }
 }

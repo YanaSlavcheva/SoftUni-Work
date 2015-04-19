@@ -191,11 +191,15 @@
     <Compile Include="BindingModels\BugsPatchBindingModel.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\BugsController.cs" />
+    <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DataModels\BugByIdDataModel.cs" />
     <Compile Include="DataModels\BugsDataModel.cs" />
+    <Compile Include="DataModels\BugsFilterDataModel.cs" />
+    <Compile Include="DataModels\CommentsByBugDataModel.cs" />
     <Compile Include="DataModels\CommentsDataModel.cs" />
+    <Compile Include="DataModels\CommentSimpleDataModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -8,7 +8,7 @@
 
     public class BugsDataModel
     {
-        // [{"Id":24, "Title":"broken link", "Status":"Open", "Author":"nakov", "DateCreated":"2015-04-18T10:02:23.883"}
+        // Id, Title, Status, Author and DateCreated
         public static Expression<Func<Bug, BugsDataModel>> DataModel
         {
             get

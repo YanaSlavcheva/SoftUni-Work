@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Bug.cs" />
+    <Compile Include="Models\BugStatus.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="BugTrackerDbContext.cs" />
     <Compile Include="Migrations\BugTrackerDbMigrationConfiguration.cs" />

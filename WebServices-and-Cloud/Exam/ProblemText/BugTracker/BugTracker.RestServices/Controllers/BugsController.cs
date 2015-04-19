@@ -1,7 +1,9 @@
 ﻿namespace BugTracker.RestServices.Controllers
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity.Migrations;
+    using System.Diagnostics;
     using System.Runtime.InteropServices;
     using System.Web.Http;
     using System.Linq;
@@ -147,38 +149,78 @@
 
         [HttpGet]
         [Route("filter")]
-        public IHttpActionResult GetBugsByFilter(string keyword, string statuses, string author)
+        public IHttpActionResult GetBugsByFilter(string keyword = null, string statuses = null, string author = null)
         {
             // filter?keyword=link&statuses=Open|Closed&author=nakov
             // Check Keyword
-            if (keyword == null)
-            {
-                return this.BadRequest(); 
-            }
-
             var bugs = this.Data.Bugs
                 .Where(x => x.Title.Contains(keyword))
                 .OrderByDescending(x => x.DateCreated)
-                .Select(BugsDataModel.DataModel);
+                .Select(BugsDataModel.DataModel).ToList();
+            if (keyword == null)
+            {
+                bugs = this.Data.Bugs
+                .OrderByDescending(x => x.DateCreated)
+                .Select(BugsDataModel.DataModel).ToList();
+            }
+
+            if (bugs.Count == 0)
+            {
+                return this.BadRequest();
+            }
 
             // check statuses
-            string[] statuStrings = statuses.Split('|');
-            foreach (var statuString in statuStrings)
+            
+            var bugsKeywordStatuses = new List<BugsDataModel>();
+            if (statuses == null)
             {
-                var statusAsEnum = (BugStatus) Enum.Parse( typeof(BugStatus), statuString, true );
-                var bugsStatuses = bugs.Select(x => x.Status == statusAsEnum);
+                bugsKeywordStatuses = bugs;
+            }
+            else
+            {
+                string[] statuStrings = statuses.Split('|');
+                foreach (var statuString in statuStrings)
+                {
+                    var statusAsEnum = (BugStatus)Enum.Parse(typeof(BugStatus), statuString, true);
+                    foreach (var bug in bugs)
+                    {
+                        if (bug.Status == statusAsEnum)
+                        {
+                            bugsKeywordStatuses.Add(bug);
+                        }
+                    }
+                }
+            }
+
+            if (bugsKeywordStatuses.Count == 0)
+            {
+                return this.BadRequest(); 
             }
             
-            //if ()
-            //{
-                
-            //}
+            // check author
+            var bugsWithAuthor = new List<BugsDataModel>();
+            if (author == null)
+            {
+                bugsWithAuthor = bugsKeywordStatuses;
+            }
+            else
+            {
+                foreach (var bugKeywordStatuses in bugsKeywordStatuses)
+                {
+                    if (bugKeywordStatuses.Author == author)
+                    {
+                        bugsWithAuthor.Add(bugKeywordStatuses);
+                    }
+                }
+            }
+              
+            if (bugsWithAuthor.Count == 0)
+            {
+                return this.BadRequest();
+            }
 
-
-            // return all filters are true
-
-
-            return this.Ok(bugs);
+            // final
+            return this.Ok(bugsWithAuthor);
         }
     }
 }

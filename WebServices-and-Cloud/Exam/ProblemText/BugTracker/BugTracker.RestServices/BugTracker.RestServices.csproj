@@ -199,6 +199,7 @@
     <Compile Include="DataModels\BugsFilterDataModel.cs" />
     <Compile Include="DataModels\CommentsByBugDataModel.cs" />
     <Compile Include="DataModels\CommentsDataModel.cs" />
+    <Compile Include="DataModels\CommentsDM.cs" />
     <Compile Include="DataModels\CommentSimpleDataModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

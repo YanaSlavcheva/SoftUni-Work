@@ -2,15 +2,10 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Data.Entity.Migrations;
-    using System.Diagnostics;
-    using System.Runtime.InteropServices;
+    using System.Collections.ObjectModel;
     using System.Web.Http;
     using System.Linq;
-    using System.Net.Http;
-    using System.Net;
 
-    using BugTracker.Data;
     using BugTracker.Data.Models;
     using BugTracker.RestServices.BindingModels;
     using BugTracker.RestServices.DataModels;
@@ -35,9 +30,23 @@
         public IHttpActionResult GetBugById(int id)
         {
             // Id, Title, Description, Status, Author, DateCreated and Comments
+            var comments =
+                this.Data.Comments.Where(x => x.BugId == id)
+                    .Select(
+                        x => new CommentsDM { Id = x.Id, Text = x.Text, Author = x.Author.UserName, DateCreated = x.PublishDate }).ToList();
+
             var bug = this.Data.Bugs
                 .Where(x => x.Id == id)
-                .Select(BugByIdDataModel.DataModel)
+                .Select(x => new BugByIdDataModel
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    Description = x.Description,
+                    Status = x.Status,
+                    Author = x.Author.UserName,
+                    DateCreated = x.DateCreated,
+                    // Comments = comments
+                })
                 .FirstOrDefault();
             if (bug == null)
             {

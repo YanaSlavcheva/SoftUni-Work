@@ -187,12 +187,19 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="BindingModels\BugBindingModel.cs" />
+    <Compile Include="BindingModels\BugsPatchBindingModel.cs" />
+    <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\BugsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataModels\BugByIdDataModel.cs" />
+    <Compile Include="DataModels\BugsDataModel.cs" />
+    <Compile Include="DataModels\CommentsDataModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\UserAccountInputModel.cs" />
+    <Compile Include="BindingModels\UserAccountInputModel.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

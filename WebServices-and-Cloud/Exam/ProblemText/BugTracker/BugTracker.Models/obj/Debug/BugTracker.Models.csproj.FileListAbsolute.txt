@@ -1,0 +1,13 @@
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\BugTracker.Models.dll.config
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\BugTracker.Models.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\BugTracker.Models.pdb
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\EntityFramework.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\EntityFramework.SqlServer.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\EntityFramework.xml
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\EntityFramework.SqlServer.xml
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\obj\Debug\BugTracker.Models.dll
+W:\_SoftUni\GitHub\SoftUni-Work\WebServices-and-Cloud\Exam\ProblemText\BugTracker\BugTracker.Models\obj\Debug\BugTracker.Models.pdb

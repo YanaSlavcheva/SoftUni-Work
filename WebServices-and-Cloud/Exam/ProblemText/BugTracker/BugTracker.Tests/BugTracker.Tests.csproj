@@ -128,6 +128,10 @@
       <Project>{11458c90-3d99-4358-b0af-6992cdb69154}</Project>
       <Name>BugTracker.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BugTracker.Models\BugTracker.Models.csproj">
+      <Project>{5b6e804f-2d8f-4b65-9f5b-3728d3e4b973}</Project>
+      <Name>BugTracker.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BugTracker.RestServices\BugTracker.RestServices.csproj">
       <Project>{18ab8155-f957-4c20-a821-23426349e789}</Project>
       <Name>BugTracker.RestServices</Name>

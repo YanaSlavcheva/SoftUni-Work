@@ -51,18 +51,24 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Bug.cs" />
-    <Compile Include="Models\BugStatus.cs" />
-    <Compile Include="Models\Comment.cs" />
+    <Compile Include="BugTrackerData.cs" />
     <Compile Include="BugTrackerDbContext.cs" />
+    <Compile Include="IBugTrackerData.cs" />
     <Compile Include="Migrations\BugTrackerDbMigrationConfiguration.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BugTracker.Models\BugTracker.Models.csproj">
+      <Project>{5b6e804f-2d8f-4b65-9f5b-3728d3e4b973}</Project>
+      <Name>BugTracker.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">

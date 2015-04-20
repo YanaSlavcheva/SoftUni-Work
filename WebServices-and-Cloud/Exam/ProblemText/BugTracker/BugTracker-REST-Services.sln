@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracker.RestServices", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracker.Tests", "BugTracker.Tests\BugTracker.Tests.csproj", "{F18C8FD4-4691-4FE5-9810-121F13758B9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracker.Models", "BugTracker.Models\BugTracker.Models.csproj", "{5B6E804F-2D8F-4B65-9F5B-3728D3E4B973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F18C8FD4-4691-4FE5-9810-121F13758B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F18C8FD4-4691-4FE5-9810-121F13758B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F18C8FD4-4691-4FE5-9810-121F13758B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6E804F-2D8F-4B65-9F5B-3728D3E4B973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6E804F-2D8F-4B65-9F5B-3728D3E4B973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6E804F-2D8F-4B65-9F5B-3728D3E4B973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6E804F-2D8F-4B65-9F5B-3728D3E4B973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

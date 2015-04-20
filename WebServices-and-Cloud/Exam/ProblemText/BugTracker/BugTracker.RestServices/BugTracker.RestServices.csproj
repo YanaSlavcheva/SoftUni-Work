@@ -250,6 +250,10 @@
       <Project>{11458c90-3d99-4358-b0af-6992cdb69154}</Project>
       <Name>BugTracker.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BugTracker.Models\BugTracker.Models.csproj">
+      <Project>{5b6e804f-2d8f-4b65-9f5b-3728d3e4b973}</Project>
+      <Name>BugTracker.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

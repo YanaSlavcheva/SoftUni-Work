@@ -1,5 +1,6 @@
 ﻿namespace BunnyCraft.Services
 {
+    using System.Net.Http.Headers;
     using System.Web.Http;
 
     public static class WebApiConfig
@@ -13,6 +14,9 @@
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
+
+            // This makes the browser return JSON, not XML
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
         }
     }
 }

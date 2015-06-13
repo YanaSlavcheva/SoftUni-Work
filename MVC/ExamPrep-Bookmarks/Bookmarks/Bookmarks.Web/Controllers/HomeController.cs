@@ -1,7 +1,11 @@
 ﻿namespace Bookmarks.Web.Controllers
 {
     using System.Web.Mvc;
+
+    using AutoMapper.QueryableExtensions;
+
     using Bookmarks.Data;
+    using Bookmarks.Web.ViewModels;
 
     public class HomeController : BaseController
     {
@@ -12,7 +16,9 @@
 
         public ActionResult Index()
         {
-            return View();
+            var bookmarks = this.Data.Bookmarks.All().Project().To<BookmarkViewModel>();
+
+            return this.View(bookmarks);
         }
 
         public ActionResult About()

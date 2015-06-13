@@ -21,6 +21,7 @@
             {
                 return assemblies;
             }
+
             private set
             {
                 assemblies = value;

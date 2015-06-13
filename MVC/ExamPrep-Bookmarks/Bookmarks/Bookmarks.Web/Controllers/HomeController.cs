@@ -6,6 +6,9 @@
 
     using Bookmarks.Data;
     using Bookmarks.Web.ViewModels;
+    using Bookmarks.Common;
+
+    using System.Linq;
 
     public class HomeController : BaseController
     {
@@ -16,7 +19,12 @@
 
         public ActionResult Index()
         {
-            var bookmarks = this.Data.Bookmarks.All().Project().To<BookmarkViewModel>();
+            var bookmarks = this.Data.Bookmarks
+                .All()
+                .OrderByDescending(b => b.Votes.Count())
+                .Take(Bookmarks.Common.GlobalConstants.NumberOfBookmarksOnHomePage)
+                .Project()
+                .To<BookmarkViewModel>();
 
             return this.View(bookmarks);
         }

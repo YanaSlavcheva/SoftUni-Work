@@ -3,5 +3,11 @@
 <div class="col-md-4">
     <h2>@Model.Title</h2>
     <p>@Model.Description</p>
-    <p>@Html.ActionLink("Details", "Details", "Bookmarks", new { id = Model.Id }, new { @class = "btn btn-default" })</p>
+
+    @if (this.User.Identity.IsAuthenticated)
+    {
+        <p>
+            @Html.ActionLink("Details", "Details", "Bookmarks", new { id = Model.Id }, new { @class = "btn btn-default" })
+        </p>
+    }
 </div>

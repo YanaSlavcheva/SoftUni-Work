@@ -205,6 +205,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\BookmarkDetailsViewModel.cs" />
     <Compile Include="ViewModels\BookmarkViewModel.cs" />
+    <Compile Include="ViewModels\CommentViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -267,6 +268,7 @@
     <Content Include="Views\Bookmarks\Index.cshtml" />
     <Content Include="Views\Bookmarks\Create.cshtml" />
     <Content Include="Views\Bookmarks\Details.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\CommentViewModel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

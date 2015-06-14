@@ -1,8 +1,25 @@
 ﻿@model Bookmarks.Web.ViewModels.BookmarkDetailsViewModel
 
 @{
-    ViewBag.Title = "title";
-    Layout = "~/Views/Home/About.cshtml";
+    ViewBag.Title = "Details";
 }
 
-<h2>title</h2>
+<h2>@Model.Title</h2>
+
+<div>
+    <p>@Html.DisplayNameFor(x => x.Url): @Html.DisplayFor(x => x.Url)</p>
+    <p>@Html.DisplayNameFor(x => x.CategoryName): @Html.DisplayFor(x => x.CategoryName)</p>
+    <p>@Html.DisplayNameFor(x => x.Description): @Html.DisplayFor(x => x.Description)</p>
+</div>
+
+<div>
+    <h2>Comments</h2>
+    @if (Model.Comments.Any())
+    {
+        @Html.DisplayFor(x => x.Comments);
+    }
+    else
+    {
+        <span>No Comments</span>
+    }
+</div>
